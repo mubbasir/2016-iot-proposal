@@ -1,0 +1,186 @@
+\documentclass[10pt]{article}
+%%%\documentclass{article}
+%%%\usepackage[2-16]{pagesel}
+%\usepackage[english,spanish]{babel}
+
+\usepackage{times}
+\usepackage{cite,verbatim,rotating}
+\usepackage{subfigure}
+
+\usepackage[paper=letterpaper,margin=1in,ignorefoot,ignorehead]{geometry}
+
+%\usepackage{fullpage,setspace}
+\usepackage{url}
+%\usepackage{algorithmic}
+%\usepackage{algorithm2e}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\setcounter{tocdepth}{3}
+%\usepackage{simplemargins}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+%\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage[dvips]{graphicx}
+%%% remove comment delimiter ('%') and specify parameters if required
+%\usepackage[dvips]{graphics}
+%\setallmargins{1.0in}
+
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+                                    {-0.5ex \@plus -1ex \@minus -.2ex}%
+                                    {1.0ex \@plus.2ex}%
+                                    {\normalfont\Large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-0.5ex\@plus -1ex \@minus -.2ex}%
+                                     {0.5ex \@plus .2ex}%
+                                     {\normalfont\large\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                     {-0.5ex\@plus -1ex \@minus -.2ex}%
+                                     {0.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                                    {-0.5ex \@plus -1ex \@minus.2ex}%
+                                    {-2em}%
+                                    {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
+                                       {0.5ex \@plus1ex \@minus .2ex}%
+                                       {-1em}%
+                                      {\normalfont\normalsize\bfseries}}
+\makeatother
+
+\setlength{\abovedisplayskip}{2pt plus 2pt minus 2pt} \setlength{\belowdisplayskip}{2pt plus 2pt minus 2pt}
+\setlength{\abovedisplayshortskip}{0pt} \setlength{\belowdisplayshortskip}{\belowdisplayskip}
+\setlength{\itemsep}{0pt}
+
+\setlength{\textfloatsep}{2 mm} \setlength{\dbltextfloatsep}{0 mm}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{0.4mm}
+
+\newcommand{\mypage}[1]{\renewcommand{\thepage}{#1-- \arabic{page}}
+\setcounter{page}{1}}
+
+\renewcommand{\figurename}{Fig.}
+
+%\renewcommand{\thesubfigure}{\figurename\ \thefigure.\alph{subfigure}}
+%\makeatletter
+%\renewcommand{\@thesubfigure}{\thesubfigure:\space}
+%\renewcommand{\p@subfigure}{}
+%\makeatother
+
+\renewcommand{\baselinestretch}{0.940}
+%%%%%%%%%%%%%%%%%From RANDY
+\newcommand{\sens}{z}
+\newcommand{\comnbrs}{{\mathscr{S}}}
+%\newcommand{\physnbrs}{{\cal X}^{\text{phys}}}
+\newcommand{\sensnbrs}{{\mathscr{X}}}
+\newcommand{\metastate}{{\mathscr{Y}}}
+\newcommand{\R}{{\ensuremath{{\mathbb{R}}}}}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\environ}{{\mathscr{E}}}
+
+%\usepackage[pdftex]{graphicx}
+%\vfuzz2pt % Don't report over-full v-boxes if over-edge is small
+%\hfuzz2pt % Don't report over-full h-boxes if over-edge is small
+%
+\DeclareGraphicsExtensions{.jpg,.pdf,.mps,.png,.eps} %For pdftex
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{property}{Property}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{propose}{Proposition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{example}{Example}[section]
+
+\DeclareMathOperator{\Cov}{Cov}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\E}{\ensuremath{\mathcal E}}
+\newcommand{\F}{\ensuremath{\mathcal F}}
+%%%%%%%%%%END FROM RANDY%%%%%%%%%%%%%
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{12pt} \pagestyle{fancy}
+
+%%%\fancyhf{} \lhead{\small Project Description} \rhead{\footnotesize
+%%%CPS:Large:Collaborative: {\bf CASAP} -- Context-Aware Systems for
+%%%Agricultural Practices} \cfoot{\thepage}
+
+%%%\small
+\fancyhf{}
+%\lhead{Context-Aware Management of Heterogeneous Sensor Networks}
+%%%\lhead{\small Project Description}
+
+%\rhead{\footnotesize CPS:Frontiers:Collaborative Research:Dynamic Entanglement of Control and Data Management in Precision Agriculture} \cfoot{\thepage}
+
+\rhead{\footnotesize Dynamic Data-Driven Networks of Cyber-Human Internet of Things for Smart and Connected Communities} \cfoot{\thepage}
+
+\normalsize
+
+\newcounter{taskcount}
+
+\setcounter{taskcount}{0}
+
+\newenvironment{task}
+{% This is the begin code
+\refstepcounter{taskcount} \textbf{\underbar{Research Tasks Group
+(RTG)-\arabic{taskcount}:}} \itshape }
+{% This is the end code
+}
+
+\renewcommand{\thetaskcount}{\textbf{RTG-\arabic{taskcount}}}
+
+\newenvironment{plan}
+{% This is the begin code
+\textbf{\underbar{Proposed Approaches:}}} {}
+
+\begin{document}
+
+%\flushbottom
+
+%%%\pagestyle{empty}
+\mypage{Project Description }
+
+\section{Introduction}\label{intro}%%
+\input{1-snt-intro.tex}
+
+\section{State of the art}\label{soa}
+\input{2-snt-soa.tex}
+
+\section{Proposed research overview}\label{research-overview}
+\input{3-snt-proposed-research-overview.tex}
+
+\section{Research tasks}\label{research-tasks}
+\input{4-snt-research-tasks.tex}
+
+\section{Broader Impact}\label{broader-impact}
+\input{5-snt-broader-impact.tex}
+
+\section{Results from current and recent prior NSF support}\label{prior-projects}
+\input{6-snt-results-prior-projects.tex}
+
+\section{Data management plan}\label{data-management-plan}
+\input{7-snt-data-management-plan.tex}
+
+\section{Project management plan including timeline}\label{project-management-plan}
+\input{8-snt-project-management.tex}
+
+%%%\newpage
+
+%%%\mypage{M}
+
+%%%\section{Management Plan and Validation}%%
+%%%\input{ManagementPlan-v5.tex}
+%%%\label{management}
+
+%%%%%%%%%%%Take a look at Phase Transition Phenomena in Wireless Ad-Hoc Networks
+
+\newpage
+\mypage{References}
+
+%\bibliography{goce}
+%\bibliographystyle{plain}
+%\bibliography{comp11mc-GT-Comprehensive-2011,cps_raf22,pdinda,CPS2012-nikos-12,WSN22,Mokbel,shekhar-refcs,terveen,mining,vipin-references,minnesota-refcs,Prior-bib}
+
+\end{document}
