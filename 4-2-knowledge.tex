@@ -1,0 +1,14 @@
+\subsection{Knowledge discovery: social network of avatars (virtual world)}
+(Ashfaq + Vladimir)
+
+Tasks:
+\begin{itemize}
+	\item Build spatio-temporal avatar profiles
+	\item Group avatars into groups according to similar profiles. I.e., construct social network of profiles and do graph clustering.
+	\item Predict avatar behavior from group profiles
+\end{itemize}
+
+
+We will use Gaussian Process dynamic models (GPDM) as profiles. GPDMs can be used for both modeling isolated avatars and interactions between avatars.  We can use a framework similar to \cite{Shen2015-jr,Shen2015-ft,Shen2012-vi}.  Then extend using our trajectory refinement and optimization approaches \cite{yoon2016}.
+
+However, we need to consider the fact that this system is heterogeneous, i.e., things and humans.  So should have a hierarchical model, one level for things, one for humans, then merge on higher level.
