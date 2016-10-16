@@ -1,9 +1,43 @@
-ADAPT~\cite{Shoulson:2013:EPA:2522628.2522629}
-BSTL~\cite{2015-fdg-bstl,Kapadia:2015:CAI:2699276.2699279}
-behavior authoring~\cite{behaviorCGA,Kapadia:2011:BAC:1944745.1944779}
-story world~\cite{AIIDE1511583}
-CANVAS~\cite{Kapadia:2016:CCN:2982818.2982846}
 
 
-smart object representation --> attributes and relationships 
+\paragraph{Knowledge Representation and Reasoning} 
+
+The processed data from above will be represented as a set of discrete time series, or \emph{fluents} which encode the states and properties of different \avatar which change over time. \todo{give example}. To facilitate efficient reasoning and knowledge discovery in a dynamic smart and inter-connected system of avatars, we will consider a level of abstraction, termed as \emph{events }. Events constitute meaningful interactions between two or more \avatar and serve as the basis for identifying relationships between them towards creating social networks of avatars. \todo{give example}. We define the specific terms and concepts we will use for event-centric knowledge representation and reasoning below. 
+
+\noindent \textbf{Smart Avatars} The notion of smart objects~\cite{Kallmann:1999:DIS:323663.323683} has been popularly used in the graphics and animation community to embed intelligence and semantics in virtual objects. We extend this formalism to represent both IoT objects as well as IoT users. This unified formalism allows us to seamless consider sensors, controllers, actuators, and human users within the same social community.  We define a smart avatar $\smartobj{} \in \world$ as $\smartobj{} = \langle \affordances, \state{} \rangle$ with a set of advertised affordances $\affordances$ and a state \state{}. An affordance $\affordance(\affordanceowner, \affordanceuser) \in \affordances$ is an advertised capability offered by a smart avatar that manipulates the states of the owner of an affordance $\affordanceowner$ and a smart avatar user $\affordanceuser$. 
+
+\noindent \textbf{State.} The state $\state{} = \langle \attributeSymbol, \relationshipSymbol \rangle$ of a smart object $\smartobj{}$ comprises a set of attribute mappings \attributeSymbol (fluents), and a collection of pairwise relationships $\relationshipSymbol$ with other avatars. With this representation, we can make logical inferences between objects using a declarative PROLOG-like knowledge reasoning engine. 
+%An attribute \attributemapping{i}{j} is a bit that denotes the value of the $j^{th}$ attribute for $\smartobj{i}$. 
+
+
+
+%A specific relationship $\relationship{\cdot}{\cdot}{a}$ is a sparse matrix of $|\world| \times |\world|$, where \relationship{i}{j}{a} is a bit that denotes the current value of the $a^{th}$ relationship between \smartobj{i} and \smartobj{j}. 
+
+
+%\noindent \textbf{Rules.}  A rule $\Rule_x(i,j) \in \Rules$ between two smart objects \smartobj{i}, \smartobj{j} is true or false, depending on the states and relationships of both objects. Rules allow for logical inference between objects and are used for reasoning such as evaluating whether a character can access a particular room, or manipulate another smart object based on the current world state. They are defined and solved using a declarative PROLOG-like interface 
+
+\noindent \textbf{Events.} Events are used to encode context-specific interactions between two or more smart avatars, and provide an appropriate level of abstraction for knowledge discovery  An event is formally defined as $\event{} = \langle \tree,  \precondition{}, \postcondition{} \rangle$. A precondition $\precondition{}: \groupState{\smartObjectGroup{}} \leftarrow \{\true, \false \} $ is a logical expression on the compound state \groupState{\smartObjectGroup{}} of a particular set of smart avatars $\smartObjectGroup{}: \{ \smartobj{1}, \smartobj{2}, \ldots \smartobj{|\roleSet{}|} \}$ that checks the validity of the states of each smart object. \precondition{} is represented as a conjunction of clauses $\clause{}{} \in \precondition{}$ where each clause \clause{}{} is a literal that specifies the desired attributes of smart objects, and relationships between pairs of participants. A precondition is fulfilled by $\smartObjectGroup{} \subseteq \world $ if $\preconditionFunction{\event}{\smartObjectGroup{}} = \true$. The event postcondition $\postcondition{} : \groupState{} \rightarrow \nextGroupState{}$ transforms the current state of all event participants \groupState{} to \nextGroupState{} by executing the effects of the event. We can extend this definition to model non-deterministic, fuzzy events with a probabilistic notion of success or failure. Events may optionally have a controller which defines the series of affordance activations within the smart avatars to produce its desired outcome. We represent this control logic using an extended version of Behavior Trees that facilitate parameterization. Parameterized Behavior Tree (PBT)~\cite{Shoulson:2011:PBT:2177817.2177835} are an effective model for representing coordinated control logic  between multiple smart avatars. 
+
+PI Kapadia has extensive prior experience in developing event-centric knowledge bases for inference and reasoning in virtual worlds~\cite{Shoulson:2013:EPA:2522628.2522629,2015-fdg-bstl,Kapadia:2015:CAI:2699276.2699279,Kapadia:2016:CCN:2982818.2982846} which will be extended to represent the IoT domain. 
+
+
+%ADAPT~\cite{Shoulson:2013:EPA:2522628.2522629}
+%BSTL~\cite{2015-fdg-bstl,Kapadia:2015:CAI:2699276.2699279}
+%behavior authoring~\cite{behaviorCGA,Kapadia:2011:BAC:1944745.1944779}
+%story world~\cite{AIIDE1511583}
+%CANVAS~\cite{Kapadia:2016:CCN:2982818.2982846}
+
+
+
+
+
+%$\roleSet{} = \{ \role{i} \}$  define the desired roles for each participant. \role{i} is a logical formula specifying the desired value of the immutable attributes \attributemapping{\cdot}{j} for \smartobj{j} to be considered as a valid candidate for that particular role in the event.  
+
+
+%An event instance $\instance = \langle \event, \smartObjectGroup{} \rangle$ is an event \event populated with an ordered list of smart object participants \smartObjectGroup{}.  $\preconditionFunction{\event}{\smartObjectGroup{}} = \true$. The event postcondition $\postcondition{} : \groupState{} \rightarrow \nextGroupState{}$ transforms the current state of all event participants \groupState{} to \nextGroupState{} by executing the effects of the event. When an event fails, $\nextGroupState{} = \groupState{}$. An event instance $\instance = \langle \event, \smartObjectGroup{} \rangle$ is an event \event populated with an ordered list of smart object participants \smartObjectGroup{}. 
+
+%? which represent the specific values of avatar fluents at specific points. Events occur on a set of avatars which are the participants, and produce a change in state of these avatars which are defined as event postconditions. Events may additionally be pre-conditioned on the participant states to indicate what conditions must be satisfied in order for an event to successfully execute. 
+
+This symbolic representation of avatars and theiry dynamic states in terms of key events will facilitate the development of an event calculus ? allowing us make inferences about the relationships and properties of these avatars using first and second-order logic. This reasoning will be used as the basis for knowledge discovery described in Section XX. Knowledge discovery will entail the identification of relationships between the properties of different avatars, clustering of avatar to create compound entities, and the discovery of salient events. 
+
 
