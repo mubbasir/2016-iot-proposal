@@ -24,5 +24,29 @@ Our experiments will be conducted in two phases: (I) laboratory studies where up
 
 \subsubsection{Task E-3. Real-World Environment Evaluations.  }
 
-XX
+The system we intend to develop is intrinsically oriented to be open source. It will need obviously the contribution of community members to feed, more or less automatically, the database of avatars in the social network of things. It also relies on a proactive contribution of users to improve the rules generator services. Rules generator, indeed, should not be a static repository of rules. Rather, it is a module which dynamically generates and improves rules at runtime. The way to accomplish these tasks, i.e., the software to do it, is based on well assessed algorithms. Nevertheless, it should be also open to improvements by the users. As common practice in open source communities, a third party serves as the booster of the software and the filter of contributions from users. We expect also that manufacturers and retailers will be highly motivated to foster this software so as to maintain the performance of their apparatuses at the high end of the market, with economic consequences. Users, meanwhile, are naturally inclined to communicate their best practices and analysis. They can do so at two levels: (1) just by issuing rules/instructions in a highly simplified script language involving both experience and their logical capabilities of formalizing it in a few well-formed expressions, and (2) by more sophisticated interventions on the open source codes, profiting their high level software experience and their knowledge of cognitive disciplines.\\
+The primers of this community will be represented by two kinds of experiments respectively realizing small scale and large scale assets of our system.\\
+
+\textbf{Small scale:}
+A mock-up of the system will be physically realized in the lab of one of the partners (IIT?) with virtual extension to the other partners’ labs. Namely the former will consist of:
+
+\begin{itemize}
+	\item a set of 4 to 6 household appliances/IoTs connected to a middleware fog.
+	\item a middleware fog hosted by a gateway that is connected to Internet.
+	\item a social network instance hosted by a local server.
+\end{itemize}
+
+Equally relevant features validating the system will be:
+
+(1) its reliability and recovery procedures w.r.t. any kind of inconvenience, ranging from power breakdown to loss of the Internet connection, or even hostile attack from an insider/outsider. The mock-up will also constitute a ground truth reference for the second class of experiments.\\
+(2) its manageability on the part of the ordinary people, both in terms of realizing a middleware fog and connecting IoTs/appliances to it, and in terms of efficiently ruling the appliances/IoTs.\\
+
+As for the last aspect, the cognitive capabilities of the networked intelligence will be dynamically improved as the entire project evolves.\\
+
+This mock-up will constitute a continual ground truth reference for the second type of experiments.\\
+
+
+\textbf{Large scale:}
+Due to the great computational effort and massive statistics database required, this social community can survive only if attracts a huge number of members. Therefore, a main task of this project is to promote the functionalities of our infrastructure within the research community. In particular we plan to implement a cluster grouping from 1,000 to 10,000 domestic gateways (middleware fogs). Basing our dimensioning on the lower bound, the cluster should manage a total of 1,000,000 nodes. Many of the middleware functionalities are implemented locally on gateways (fogs). However, most of them needs frequent connections to the social networks of things, for instance to consult catalogues, reference instructions, tuning parameters, etc. We plan to attribute 2 GB of memory mass to each middleware – which is comparable with normal memory supply of smartphones and other smart personal appliances – for a total of 2 Terabytes. Moreover, given the scarce criticality of the ruled functions, we assume the clock stroke to be of the order of 1 second, and we prepare our software to manage a flow of 5,000 requests per second. These requests should be handled through 50 parallel processes entailing 25 GB RAM. As for the social network we plan to use 10 servers with 50GB RAM and 1TB memory for managing their operations in a modular and scalable way.
+
 

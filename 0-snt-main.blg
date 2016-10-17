@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: 0-snt-main.aux
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 0-snt-main.aux
 The style file: plain.bst
 Database file #1: goce.bib
 Database file #2: farid.bib
@@ -41,87 +43,87 @@ Repeated entry---line 12832 of file neo.bib
 I'm skipping whatever remains of this entry
 Database file #6: akuzma.bib
 Warning--string name "november" is undefined
---line 65 of file akuzma.bib
+--line 129 of file akuzma.bib
 Warning--string name "october" is undefined
---line 140 of file akuzma.bib
-Repeated entry---line 204 of file akuzma.bib
+--line 279 of file akuzma.bib
+Repeated entry---line 407 of file akuzma.bib
  : @inproceedings{serendipity09imc
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 227 of file akuzma.bib
+Repeated entry---line 453 of file akuzma.bib
  : @inproceedings{ akamai08icdcs
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 239 of file akuzma.bib
+Repeated entry---line 477 of file akuzma.bib
  : @inproceedings{ pong07sigmetrics
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 259 of file akuzma.bib
+Repeated entry---line 517 of file akuzma.bib
  : @inproceedings{friendly07infocom
  :                                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 347 of file akuzma.bib
+I was expecting a `,' or a `}'---line 693 of file akuzma.bib
  :     
  :     year = 2002,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 562 of file akuzma.bib
+Repeated entry---line 1123 of file akuzma.bib
  : @inproceedings{cache06icnp
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 863 of file akuzma.bib
+Repeated entry---line 1725 of file akuzma.bib
  : @inproceedings{ akamai06sigcomm
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1081 of file akuzma.bib
+Repeated entry---line 2161 of file akuzma.bib
  : @misc{ web06par
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1088 of file akuzma.bib
+Repeated entry---line 2175 of file akuzma.bib
  : @inproceedings{tcpoison07icnp
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2231 of file akuzma.bib
+Repeated entry---line 4461 of file akuzma.bib
  : @misc{ecn05rfc
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2242 of file akuzma.bib
+Repeated entry---line 4483 of file akuzma.bib
  : @inproceedings{ ecn05sigcomm
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2654 of file akuzma.bib
+Repeated entry---line 5307 of file akuzma.bib
  : @inproceedings{hstcp-lp
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2677 of file akuzma.bib
+Repeated entry---line 5353 of file akuzma.bib
  : @inproceedings{ dos05p2p
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2725 of file akuzma.bib
+Repeated entry---line 5449 of file akuzma.bib
  : @article{ shrewToN
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2737 of file akuzma.bib
+Repeated entry---line 5473 of file akuzma.bib
  : @inproceedings{shrew03sigcomm
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2971 of file akuzma.bib
+Repeated entry---line 5941 of file akuzma.bib
  : @article{receiver07jcn
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3463 of file akuzma.bib
+Repeated entry---line 6925 of file akuzma.bib
  : @article{kuzkni-tpds
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3476 of file akuzma.bib
+Repeated entry---line 6951 of file akuzma.bib
  : @article{ tcp-lpToN
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3492 of file akuzma.bib
+Repeated entry---line 6983 of file akuzma.bib
  : @inproceedings{tcp-lp
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3859 of file akuzma.bib
+Repeated entry---line 7717 of file akuzma.bib
  : @inproceedings{KuzKni01
  :                        ,
 I'm skipping whatever remains of this entry
@@ -175,194 +177,194 @@ Repeated entry---line 3924 of file akuzma1.bib
  :                        ,
 I'm skipping whatever remains of this entry
 Database file #8: bias.bib
-I was expecting an "="---line 3926 of file bias.bib
+I was expecting an "="---line 7851 of file bias.bib
  :  
  :  }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Database file #9: bib.bib
-Repeated entry---line 305 of file bib.bib
+Repeated entry---line 609 of file bib.bib
  : @inproceedings{ mosaic13sigcomm
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 315 of file bib.bib
+Repeated entry---line 629 of file bib.bib
  : @inproceedings{ fusion11
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 325 of file bib.bib
+Repeated entry---line 649 of file bib.bib
  : @inproceedings{ fusion13
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 337 of file bib.bib
+Repeated entry---line 673 of file bib.bib
  : @inproceedings{ glance13wow
  :                            ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 389 of file bib.bib
+I was expecting an "="---line 777 of file bib.bib
  :   
  :   month = jun,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 518 of file bib.bib
+Repeated entry---line 1035 of file bib.bib
  : @inproceedings{ad10infocom
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 531 of file bib.bib
+Repeated entry---line 1061 of file bib.bib
  : @inproceedings{ ad10www
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 541 of file bib.bib
+Repeated entry---line 1081 of file bib.bib
  : @inproceedings{ move12www
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 555 of file bib.bib
+Repeated entry---line 1109 of file bib.bib
  : @inproceedings{ vision12
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 566 of file bib.bib
+Repeated entry---line 1131 of file bib.bib
  : @inproceedings{synthoid14wi
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 577 of file bib.bib
+Repeated entry---line 1153 of file bib.bib
  : @inproceedings{geoecho14wi
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 591 of file bib.bib
+Repeated entry---line 1181 of file bib.bib
  : @inproceedings{myths10wi
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 604 of file bib.bib
+Repeated entry---line 1207 of file bib.bib
  : @article{myths14tweb
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 619 of file bib.bib
+Repeated entry---line 1237 of file bib.bib
  : @inproceedings{ adver11icdcs
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 632 of file bib.bib
+Repeated entry---line 1263 of file bib.bib
  : @inproceedings{selective12wi
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 645 of file bib.bib
+Repeated entry---line 1289 of file bib.bib
  : @inproceedings{spam13pam
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 658 of file bib.bib
+Repeated entry---line 1315 of file bib.bib
  : @inproceedings{migration11wi
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 672 of file bib.bib
+Repeated entry---line 1343 of file bib.bib
  : @inproceedings{geo11nsdi
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 923 of file bib.bib
+Repeated entry---line 1845 of file bib.bib
  : @inproceedings{ akamai08icdcs
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1016 of file bib.bib
+Repeated entry---line 2031 of file bib.bib
  : @article{receiver07jcn
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1061 of file bib.bib
+Repeated entry---line 2121 of file bib.bib
  : @misc{ecn05rfc
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 1146 of file bib.bib
+"{" immediately follows a field part---line 2291 of file bib.bib
  :   note = \url
  :              {http://www.ms.unimelb.edu.au/~moshe/maximin/info-gap.pdf},
 I'm skipping whatever remains of this entry
-Repeated entry---line 1199 of file bib.bib
+Repeated entry---line 2397 of file bib.bib
  : @inproceedings{friendly07infocom
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1210 of file bib.bib
+Repeated entry---line 2419 of file bib.bib
  : @inproceedings{tcpoison07icnp
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1284 of file bib.bib
+Repeated entry---line 2567 of file bib.bib
  : @inproceedings{ pong07sigmetrics
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2626 of file bib.bib
+Repeated entry---line 5251 of file bib.bib
  : @inproceedings{cache06icnp
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2921 of file bib.bib
+Repeated entry---line 5841 of file bib.bib
  : @inproceedings{ akamai06sigcomm
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3140 of file bib.bib
+Repeated entry---line 6279 of file bib.bib
  : @techreport{ web06par
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4320 of file bib.bib
+Repeated entry---line 8639 of file bib.bib
  : @inproceedings{ ecn05sigcomm
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4732 of file bib.bib
+Repeated entry---line 9463 of file bib.bib
  : @inproceedings{hstcp-lp
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4755 of file bib.bib
+Repeated entry---line 9509 of file bib.bib
  : @inproceedings{ dos05p2p
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4803 of file bib.bib
+Repeated entry---line 9605 of file bib.bib
  : @article{ shrewToN
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4815 of file bib.bib
+Repeated entry---line 9629 of file bib.bib
  : @inproceedings{shrew03sigcomm
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5529 of file bib.bib
+Repeated entry---line 11057 of file bib.bib
  : @article{kuzkni-tpds
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5542 of file bib.bib
+Repeated entry---line 11083 of file bib.bib
  : @article{ tcp-lpToN
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5558 of file bib.bib
+Repeated entry---line 11115 of file bib.bib
  : @inproceedings{tcp-lp
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5925 of file bib.bib
+Repeated entry---line 11849 of file bib.bib
  : @inproceedings{KuzKni01
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10435 of file bib.bib
+Repeated entry---line 20869 of file bib.bib
  : @inproceedings{ ecn05sigcomm
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10847 of file bib.bib
+Repeated entry---line 21693 of file bib.bib
  : @inproceedings{hstcp-lp
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10870 of file bib.bib
+Repeated entry---line 21739 of file bib.bib
  : @inproceedings{ dos05p2p
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10918 of file bib.bib
+Repeated entry---line 21835 of file bib.bib
  : @article{ shrewToN
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10930 of file bib.bib
+Repeated entry---line 21859 of file bib.bib
  : @inproceedings{shrew03sigcomm
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11644 of file bib.bib
+Repeated entry---line 23287 of file bib.bib
  : @article{kuzkni-tpds
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11657 of file bib.bib
+Repeated entry---line 23313 of file bib.bib
  : @article{ tcp-lpToN
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11673 of file bib.bib
+Repeated entry---line 23345 of file bib.bib
  : @inproceedings{tcp-lp
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12040 of file bib.bib
+Repeated entry---line 24079 of file bib.bib
  : @inproceedings{KuzKni01
  :                        ,
 I'm skipping whatever remains of this entry
@@ -424,225 +426,225 @@ Database file #12: emubrowse.bib
 Database file #13: google-ranking.bib
 Database file #14: mislove.bib
 Database file #15: proposal.bib
-I was expecting a `{' or a `('---line 12 of file proposal.bib
+I was expecting a `{' or a `('---line 23 of file proposal.bib
  : 
  : % Language:     BibTeX
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1909 of file proposal.bib
+Repeated entry---line 3817 of file proposal.bib
  : @inproceedings{KuzKni01
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4265 of file proposal.bib
+Repeated entry---line 8529 of file proposal.bib
  : @inproceedings{ dos05p2p
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4366 of file proposal.bib
+Repeated entry---line 8731 of file proposal.bib
  : @inproceedings{ ecn05sigcomm
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4850 of file proposal.bib
+Repeated entry---line 9699 of file proposal.bib
  : @inproceedings{hstcp-lp
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5167 of file proposal.bib
+Repeated entry---line 10333 of file proposal.bib
  : @article{kuzkni-tpds
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6564 of file proposal.bib
+Repeated entry---line 13127 of file proposal.bib
  : @inproceedings{shrew03sigcomm
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6585 of file proposal.bib
+Repeated entry---line 13169 of file proposal.bib
  : @article{ shrewToN
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6806 of file proposal.bib
+Repeated entry---line 13611 of file proposal.bib
  : @inproceedings{tcp-lp
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6816 of file proposal.bib
+Repeated entry---line 13631 of file proposal.bib
  : @article{ tcp-lpToN
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7131 of file proposal.bib
+Repeated entry---line 14261 of file proposal.bib
  : @misc{ web06par
  :                ,
 I'm skipping whatever remains of this entry
 Database file #16: softid.bib
-Repeated entry---line 399 of file softid.bib
+Repeated entry---line 797 of file softid.bib
  : @inproceedings{ mosaic13sigcomm
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 409 of file softid.bib
+Repeated entry---line 817 of file softid.bib
  : @inproceedings{ fusion11
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 419 of file softid.bib
+Repeated entry---line 837 of file softid.bib
  : @inproceedings{ fusion13
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 431 of file softid.bib
+Repeated entry---line 861 of file softid.bib
  : @inproceedings{ glance13wow
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 612 of file softid.bib
+Repeated entry---line 1223 of file softid.bib
  : @inproceedings{ad10infocom
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 625 of file softid.bib
+Repeated entry---line 1249 of file softid.bib
  : @inproceedings{ ad10www
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 635 of file softid.bib
+Repeated entry---line 1269 of file softid.bib
  : @inproceedings{ move12www
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 649 of file softid.bib
+Repeated entry---line 1297 of file softid.bib
  : @inproceedings{ vision12
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 660 of file softid.bib
+Repeated entry---line 1319 of file softid.bib
  : @inproceedings{synthoid14wi
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 671 of file softid.bib
+Repeated entry---line 1341 of file softid.bib
  : @inproceedings{geoecho14wi
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 685 of file softid.bib
+Repeated entry---line 1369 of file softid.bib
  : @inproceedings{myths10wi
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 698 of file softid.bib
+Repeated entry---line 1395 of file softid.bib
  : @article{myths14tweb
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 713 of file softid.bib
+Repeated entry---line 1425 of file softid.bib
  : @inproceedings{ adver11icdcs
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 726 of file softid.bib
+Repeated entry---line 1451 of file softid.bib
  : @inproceedings{selective12wi
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 739 of file softid.bib
+Repeated entry---line 1477 of file softid.bib
  : @inproceedings{spam13pam
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 752 of file softid.bib
+Repeated entry---line 1503 of file softid.bib
  : @inproceedings{migration11wi
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 766 of file softid.bib
+Repeated entry---line 1531 of file softid.bib
  : @inproceedings{geo11nsdi
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 978 of file softid.bib
+Repeated entry---line 1955 of file softid.bib
  : @inproceedings{ akamai08icdcs
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1071 of file softid.bib
+Repeated entry---line 2141 of file softid.bib
  : @article{receiver07jcn
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1116 of file softid.bib
+Repeated entry---line 2231 of file softid.bib
  : @misc{ecn05rfc
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1245 of file softid.bib
+Repeated entry---line 2489 of file softid.bib
  : @inproceedings{friendly07infocom
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1256 of file softid.bib
+Repeated entry---line 2511 of file softid.bib
  : @inproceedings{tcpoison07icnp
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1330 of file softid.bib
+Repeated entry---line 2659 of file softid.bib
  : @inproceedings{ pong07sigmetrics
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2672 of file softid.bib
+Repeated entry---line 5343 of file softid.bib
  : @inproceedings{cache06icnp
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2967 of file softid.bib
+Repeated entry---line 5933 of file softid.bib
  : @inproceedings{ akamai06sigcomm
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3186 of file softid.bib
+Repeated entry---line 6371 of file softid.bib
  : @techreport{ web06par
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4366 of file softid.bib
+Repeated entry---line 8731 of file softid.bib
  : @inproceedings{ ecn05sigcomm
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4778 of file softid.bib
+Repeated entry---line 9555 of file softid.bib
  : @inproceedings{hstcp-lp
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4801 of file softid.bib
+Repeated entry---line 9601 of file softid.bib
  : @inproceedings{ dos05p2p
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4849 of file softid.bib
+Repeated entry---line 9697 of file softid.bib
  : @article{ shrewToN
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4861 of file softid.bib
+Repeated entry---line 9721 of file softid.bib
  : @inproceedings{shrew03sigcomm
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5575 of file softid.bib
+Repeated entry---line 11149 of file softid.bib
  : @article{kuzkni-tpds
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5588 of file softid.bib
+Repeated entry---line 11175 of file softid.bib
  : @article{ tcp-lpToN
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5604 of file softid.bib
+Repeated entry---line 11207 of file softid.bib
  : @inproceedings{tcp-lp
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5971 of file softid.bib
+Repeated entry---line 11941 of file softid.bib
  : @inproceedings{KuzKni01
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10481 of file softid.bib
+Repeated entry---line 20961 of file softid.bib
  : @inproceedings{ ecn05sigcomm
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10893 of file softid.bib
+Repeated entry---line 21785 of file softid.bib
  : @inproceedings{hstcp-lp
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10916 of file softid.bib
+Repeated entry---line 21831 of file softid.bib
  : @inproceedings{ dos05p2p
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10964 of file softid.bib
+Repeated entry---line 21927 of file softid.bib
  : @article{ shrewToN
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10976 of file softid.bib
+Repeated entry---line 21951 of file softid.bib
  : @inproceedings{shrew03sigcomm
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11690 of file softid.bib
+Repeated entry---line 23379 of file softid.bib
  : @article{kuzkni-tpds
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11703 of file softid.bib
+Repeated entry---line 23405 of file softid.bib
  : @article{ tcp-lpToN
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11719 of file softid.bib
+Repeated entry---line 23437 of file softid.bib
  : @inproceedings{tcp-lp
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12086 of file softid.bib
+Repeated entry---line 24171 of file softid.bib
  : @inproceedings{KuzKni01
  :                        ,
 I'm skipping whatever remains of this entry
@@ -712,4 +714,45 @@ Warning--I didn't find a database entry for "10.1109/TVCG.2014.251"
 Warning--to sort, need author or key in mu-mimoUXeffect
 Warning--to sort, need author or key in warpProject
 Warning--empty institution in web06par
+You've used 149 entries,
+            2118 wiz_defined-function locations,
+            1688 strings with 41520 characters,
+and the built_in function-call counts, 54035 in all, are:
+= -- 5100
+> -- 2789
+< -- 40
++ -- 1105
+- -- 940
+* -- 3651
+:= -- 8693
+add.period$ -- 448
+call.type$ -- 149
+change.case$ -- 910
+chr.to.int$ -- 0
+cite$ -- 152
+duplicate$ -- 2247
+empty$ -- 4382
+format.name$ -- 940
+if$ -- 11606
+int.to.chr$ -- 0
+int.to.str$ -- 149
+missing$ -- 140
+newline$ -- 740
+num.names$ -- 298
+pop$ -- 1223
+preamble$ -- 1
+purify$ -- 765
+quote$ -- 0
+skip$ -- 1521
+stack$ -- 0
+substring$ -- 2652
+swap$ -- 563
+text.length$ -- 40
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 594
+warning$ -- 3
+while$ -- 437
+width$ -- 152
+write$ -- 1605
 (There were 169 error messages)

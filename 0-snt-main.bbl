@@ -34,8 +34,20 @@ E.~Al-Masri and Q.~H. Mahmoud.
 \newblock Investigating web services on the world wide web.
 \newblock In {\em 17th international conference on World Wide Web. ACM}, 2008.
 
+\bibitem{alahi2014socially}
+Alexandre Alahi, Vignesh Ramanathan, and Li~Fei-Fei.
+\newblock Socially-aware large-scale crowd forecasting.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2014 IEEE
+  Conference on}, pages 2211--2218. IEEE, 2014.
+
 \bibitem{Zigbee12}
 ZigBee Alliance, 2012.
+
+\bibitem{antonini2006}
+G.~Antonini, S.V. Martinez, M.~Bierlaire, and J.P. Thiran.
+\newblock {Behavioral priors for detection and tracking of pedestrians in video
+  sequences}.
+\newblock {\em International Journal of Computer Vision}, 96:159--180, 2006.
 
 \bibitem{AtzoriCI14}
 Luigi Atzori, Davide Carboni, and Antonio Iera.
@@ -56,6 +68,13 @@ Besim Avci, Goce Trajcevski, and Peter Scheuermann.
   European Conference, {ADBIS} 2016, Prague, Czech Republic, August 28-31,
   2016, Proceedings}, pages 338--351, 2016.
 
+\bibitem{behnam2016}
+Behnam Babagholami~Mohamadabadi, Sejong Yoon, and Vladimir Pavlovic.
+\newblock {D}ecenteralized ‎{A}pproximate ‎{B}ayesian‎ {I}nference for
+  ‎{D}istributed‎ {S}enso.
+\newblock In {\em The 30th AAAI Conference on Artificial Intelligence (AAAI)},
+  2016.
+
 \bibitem{fusion11}
 A.~Ballew, A.~Kuzmanovic, and C.~C. Lee.
 \newblock {Fusion of Live Audio Recordings for Blind Noise Reduction}.
@@ -74,10 +93,45 @@ A.~Ballew, S.~Srivastava, N.~Valtchanov, C.-C. Lee, and A.~Kuzmanovic.
   Innovative Mobile and Internet Services in Ubiquitous Computing (IMIS-2012)},
   Palermo, Italy, July 2012.
 
+\bibitem{bento2013}
+Jos{\'e} Bento, Nate Derbinsky, Javier Alonso-Mora, and Jonathan Yedidia.
+\newblock {A message-passing algorithm for multi-agent trajectory planning}.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2013.
+
+\bibitem{bento2015}
+Jos{\'e} Bento, Nate Derbinsky, Charles Mathy, and Jonathan~S. Yedidia.
+\newblock {Proximal Operators for Multi-Agent Path Planning}.
+\newblock In {\em Association for the Advancement of Artificial Intelligence},
+  2015.
+
+\bibitem{6907095}
+A.~Bera, N.~Galoppo, D.~Sharlet, A.~Lake, and D.~Manocha.
+\newblock Adapt: Real-time adaptive pedestrian tracking for crowded scenes.
+\newblock In {\em Robotics and Automation (ICRA), 2014 IEEE International
+  Conference on}, pages 1801--1808, May 2014.
+
+\bibitem{bera2015}
+Aniket Bera, Sujeong Kim, and Dinesh Manocha.
+\newblock {Efficient Trajectory Extraction and Parameter Learning for
+  Data-Driven Crowd Simulation}.
+\newblock In {\em Graphics Interface}, 2015.
+
+\bibitem{bera2014}
+Aniket Bera and Dinesh Manocha.
+\newblock {Realtime Multilevel Crowd Tracking using Reciprocal Velocity
+  Obstacles}.
+\newblock In {\em 22nd International Conference on Pattern Recognition}, 2014.
+
 \bibitem{BergamaschiCVB01}
 Sonia Bergamaschi, Silvana Castano, Maurizio Vincini, and Domenico Beneventano.
 \newblock Semantic integration of heterogeneous information sources.
 \newblock {\em Data Knowl. Eng.}, 36(3):215--249, 2001.
+
+\bibitem{cancela2014}
+B.~Cancela, A.~Iglesias, M.~Ortega, and M.~Penedo.
+\newblock Unsupervised trajectory modeling using temporal information via
+  minimal paths.
+\newblock In {\em In IEEE CVPR}, 2014.
 
 \bibitem{CastanoFMR04}
 Silvana Castano, Alfio Ferrara, Stefano Montanelli, and Gianpaolo Racca.
@@ -122,6 +176,18 @@ Adrien Coulet, Yael Garten, Michel Dumontier, Russ~B. Altman, Mark~A. Musen,
 \newblock Integration and publication of heterogeneous text-mined relationships
   on the semantic web.
 \newblock {\em J. Biomedical Semantics}, 2({S-2}):S10, 2011.
+
+\bibitem{helbing2005}
+A.~Johansson D.~Helbing, L.~Buzna and T.~Werner.
+\newblock Self-organized pedestrian crowd dynamics: Experiments, simulations,
+  and design solutions.
+\newblock {\em Transportation Science}, 39(1):1--24, 2005.
+
+\bibitem{Das2013-mk}
+S~Das and J~M~F Moura.
+\newblock Distributed state estimation in multi-agent networks.
+\newblock In {\em 2013 {IEEE} International Conference on Acoustics, Speech and
+  Signal Processing}, pages 4246--4250, May 2013.
 
 \bibitem{pong07sigmetrics}
 L.~Deng and A.~Kuzmanovic.
@@ -176,6 +242,12 @@ Alessandro Floris, Alessio Meloni, Virginia Pilloni, and Luigi Atzori.
 \newblock In {\em 2015 {IEEE} Global Communications Conference, {GLOBECOM}
   2015, San Diego, CA, USA, December 6-10, 2015}, pages 1--6, 2015.
 
+\bibitem{fortmann1980multi}
+Thomas~E Fortmann, Yaakov Bar-Shalom, and Mathias Scheffe.
+\newblock Multi-target tracking using joint probabilistic data association.
+\newblock In {\em Decision and Control including the Symposium on Adaptive
+  Processes, 1980 19th IEEE Conference on}, pages 807--812. IEEE, 1980.
+
 \bibitem{cache06icnp}
 Y.~Gao, L.~Deng, A.~Kuzmanovic, and Y.~Chen.
 \newblock Internet cache pollution attacks and countermeasures.
@@ -223,6 +295,18 @@ Antonio Iera, Giacomo Morabito, and Luigi Atzori.
 \newblock The social internet of things.
 \newblock In {\em 2015 {IEEE} International Conference on Cloud Engineering,
   {IC2E} 2015, Tempe, AZ, USA, March 9-13, 2015}, page~1, 2015.
+
+\bibitem{johnson1996}
+N.~Johnson and D.~Hogg.
+\newblock {Learning the distribution of object trajectories for event
+  recognition}.
+\newblock {\em Image and Vision computing}, 14(8):609--615, 1996.
+
+\bibitem{kamal2013information}
+Ahmed Kamal, Jay Farrell, and Amit Roy-Chowdhury.
+\newblock Information consensus for distributed multi-target tracking.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 2403--2410, 2013.
 
 \bibitem{Kapadia:2015:CAI:2699276.2699279}
 Mubbasir Kapadia, Jessica Falk, Fabio Z\"{u}nd, Marcel Marti, Robert~W. Sumner,
@@ -399,6 +483,11 @@ D.~Massaguer, M.~Diallo, S.~Mehrotra, and N.~Venkatasubramanian.
 \newblock In {\em 10th International Middleware Conference Middleware:
   ACM/IFIP/USENIX}, 2009.
 
+\bibitem{mazzon2013}
+Riccardo Mazzon and Andrea Cavallaro.
+\newblock {Multi-camera tracking using a Multi-Goal Social Force Model}.
+\newblock {\em Neurocomputing}, 100:41--50, 2013.
+
 \bibitem{MelodiaPGA07}
 Tommaso Melodia, Dario Pompili, Vehbi~C. Gungor, and Ian~F. Akyildiz.
 \newblock Communication and coordination in wireless sensor and actor networks.
@@ -424,6 +513,13 @@ A.~Mondal and A.~Kuzmanovic.
 A.~Mondal and A.~Kuzmanovic.
 \newblock Removing exponential backoff from {TCP}.
 \newblock {\em ACM Computer Comm. Review}, 38(5):17--28, 2008.
+
+\bibitem{morris2011}
+B.~T. Morris and M.~M. Trivedi.
+\newblock Trajectory learning for activity understanding: Unsupervised,
+  multilevel, and long-term adaptive approach.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  33(11):2287–2301, 2011.
 
 \bibitem{MorrisTP10}
 Meredith~Ringel Morris, Jaime Teevan, and Katrina Panovich.
@@ -464,6 +560,13 @@ Suraj Pandey and Rajkumar Buyya.
 \newblock Scheduling workflow applications based on multi-source parallel data
   retrieval in distributed computing networks.
 \newblock {\em Comput. J.}, 55(11):1288--1308, 2012.
+
+\bibitem{pellegrini2009you}
+Stefano Pellegrini, Andreas Ess, Konrad Schindler, and Luc Van~Gool.
+\newblock You'll never walk alone: Modeling social behavior for multi-target
+  tracking.
+\newblock In {\em Computer Vision, 2009 IEEE 12th International Conference on},
+  pages 261--268. IEEE, 2009.
 
 \bibitem{PoolaRB16}
 Deepak Poola, Kotagiri Ramamohanarao, and Rajkumar Buyya.
@@ -525,6 +628,13 @@ Hamidreza Salarian, Kwan{-}Wu Chin, and Fazel Naghdy.
 \newblock Coordination in wireless sensor-actuator networks: {A} survey.
 \newblock {\em J. Parallel Distrib. Comput.}, 72(7):856--867, 2012.
 
+\bibitem{schulz2003people}
+Dirk Schulz, Wolfram Burgard, Dieter Fox, and Armin~B Cremers.
+\newblock People tracking with mobile robots using sample-based joint
+  probabilistic data association filters.
+\newblock {\em The International Journal of Robotics Research}, 22(2):99--116,
+  2003.
+
 \bibitem{Shariat2011}
 Shahriar Shariat and Vladimir Pavlovic.
 \newblock Isotonic {CCA} for sequence alignment and activity recognition.
@@ -576,6 +686,13 @@ Alexander Shoulson, Max~L. Gilbert, Mubbasir Kapadia, and Norman~I. Badler.
 \newblock An event-centric planning approach for dynamic real-time narrative.
 \newblock In {\em Proceedings of Motion on Games}, MIG '13, pages
   99:121--99:130, New York, NY, USA, 2013. ACM.
+
+\bibitem{song2016aaai}
+Changkyu Song, Sejong Yoon, and Vladimir Pavlovic.
+\newblock {F}ast {ADMM} {A}lgorithm for {D}istributed {O}ptimization with
+  {A}daptive {P}enalty.
+\newblock In {\em The 30th AAAI Conference on Artificial Intelligence (AAAI)},
+  2016.
 
 \bibitem{akamai08icdcs}
 A.-J. Su, D.~Choffnes, F.~Bustamante, and A.~Kuzmanovic.
@@ -638,10 +755,20 @@ I.~Trestian, C.~Xiao, and A.~Kuzmanovic.
 \newblock In {\em Proceedings of the 1st International Web Observatory
   Workshop, {WOW2013}}, Rio De Janeiro, Brazil, May 2013.
 
+\bibitem{tron2011b}
+Roberto Tron and Rene Vidal.
+\newblock {D}istributed {C}omputer {V}ision {A}lgorithms.
+\newblock {\em IEEE Signal Processing Magazine}, 28:32--45, 2011.
+
 \bibitem{VenturiniJL15}
 Tommaso Venturini, Pablo Jensen, and Bruno Latour.
 \newblock Fill in the gap: {A} new alliance for social and natural sciences.
 \newblock {\em J. Artificial Societies and Social Simulation}, 18(2), 2015.
+
+\bibitem{wang2013}
+Xiaogang Wang.
+\newblock {Intelligent multi-camera video surveillance: A review}.
+\newblock {\em Pattern Recognition Letters}, 2013.
 
 \bibitem{geo11nsdi}
 Y.~Wang, D.~Burgener, M.~Flores, A.~Kuzmanovic, and C.~Huang.
@@ -691,6 +818,12 @@ C.~Xiao, L.~Su, J.~Bi, Y.~Xue, and A.~Kuzmanovic.
 \newblock In {\em Proceedings of IEEE/WIC/ACM International Conference on Web
   Intelligence}, Macao, China, December 2012.
 
+\bibitem{xu2015}
+Hongteng Xu, Yang Zhou, Weiyao Lin, and Hongyuan Zha.
+\newblock {Unsupervised Trajectory Clustering via Adaptive Multi-Kernel-based
+  Shrinkage}.
+\newblock In {\em International Conference on Computer Vision (ICCV)}, 2015.
+
 \bibitem{rudovic2014icvs}
 Shuang Yang, Ognjen Rudovic, Vladimir Pavlovic, and Maja Pantic.
 \newblock Personalized modeling of facial action unit intensity.
@@ -726,11 +859,23 @@ Sejong Yoon, Mubbasir Kapadia, Pritish Sahu, and Vladimir Pavlovic.
   and Transportation (AVSTI) in conjunction with IEEE Winter Conference on
   Applications of Computer Vision (WACV)}, 2016.
 
+\bibitem{yoon2012}
+Sejong Yoon and Vladimir Pavlovic.
+\newblock Distributed probabilistic learning for camera networks with missing
+  data.
+\newblock In {\em Advances in Neural Information Processing Systems (NIPS)},
+  2012.
+
 \bibitem{ZanellaBCVZ14}
 Andrea Zanella, Nicola Bui, Angelo~Paolo Castellani, Lorenzo Vangelista, and
   Michele Zorzi.
 \newblock Internet of things for smart cities.
 \newblock {\em {IEEE} Internet of Things Journal}, 1(1):22--32, 2014.
+
+\bibitem{zhan2008}
+B.~Zhan, D.N. Monekosso, P.~Remagnino, S.A. Velastin, and L.-Q. Xu.
+\newblock {Crowd analysis: a survey}.
+\newblock {\em Machine Vision Applications}, 19:345–--357, 2008.
 
 \bibitem{ZH08}
 W.~Zhang and K.~Hansen.
@@ -745,6 +890,18 @@ W.~Zhang and K.~Hansen.
   self-management planning in a pervasive service middleware.
 \newblock In {\em 14th IEEE International Conference on Engineering of Complex
   Computer Systems}, 2009.
+
+\bibitem{zhou2011}
+B.~Zhou, X.~Wang, and X.~Tang.
+\newblock Random field topic model for semantic region analysis in crowded
+  scenes from tracklets.
+\newblock In {\em IEEE CVPR}, 2011.
+
+\bibitem{zhou2012}
+B.~Zhou, X.~Wang, and X.~Tang.
+\newblock Understanding collective crowd behaviors: Learning a mixture model of
+  dynamic pedestrian-agents.
+\newblock In {\em IEEE CVPR}, 2012.
 
 \bibitem{ZMN05}
 F.~Zhu, M.~Mutka, and L.~Ni.
