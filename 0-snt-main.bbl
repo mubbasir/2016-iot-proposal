@@ -1,0 +1,754 @@
+\begin{thebibliography}{100}
+
+\bibitem{mu-mimoUXeffect}
+{MU-MIMO and the User Experience}.
+\newblock \url{www.signalsresearch.com/issue/mu-mimo-and-the-user-experience/}.
+
+\bibitem{warpProject}
+{WARP} project.
+\newblock \url{http://warpproject.org}.
+
+\bibitem{AHS07}
+K.~Aberer, M.~Hauswirth, and A.~Salehi.
+\newblock Infrastructure for data processing in large-scale interconnected
+  sensor networks.
+\newblock In {\em International Conference on Mobile Data Management}, 2007.
+
+\bibitem{AhmedEH15}
+Khaled Ahmed, Neamat El{-}Tazi, and Ahmad~Hany Hossny.
+\newblock Sentiment analysis over social networks: An overview.
+\newblock In {\em 2015 {IEEE} International Conference on Systems, Man, and
+  Cybernetics, Kowloon Tong, Hong Kong, October 9-12, 2015}, pages 2174--2179,
+  2015.
+
+\bibitem{Al-FuqahaGMAA15}
+Ala~I. Al{-}Fuqaha, Mohsen Guizani, Mehdi Mohammadi, Mohammed Aledhari, and
+  Moussa Ayyash.
+\newblock Internet of things: {A} survey on enabling technologies, protocols,
+  and applications.
+\newblock {\em {IEEE} Communications Surveys and Tutorials}, 17(4):2347--2376,
+  2015.
+
+\bibitem{AM08}
+E.~Al-Masri and Q.~H. Mahmoud.
+\newblock Investigating web services on the world wide web.
+\newblock In {\em 17th international conference on World Wide Web. ACM}, 2008.
+
+\bibitem{Zigbee12}
+ZigBee Alliance, 2012.
+
+\bibitem{AtzoriCI14}
+Luigi Atzori, Davide Carboni, and Antonio Iera.
+\newblock Smart things in the social loop: Paradigms, technologies, and
+  potentials.
+\newblock {\em Ad Hoc Networks}, 18:121--132, 2014.
+
+\bibitem{AtzoriIM10}
+Luigi Atzori, Antonio Iera, and Giacomo Morabito.
+\newblock The internet of things: {A} survey.
+\newblock {\em Computer Networks}, 54(15):2787--2805, 2010.
+
+\bibitem{AvciTS16}
+Besim Avci, Goce Trajcevski, and Peter Scheuermann.
+\newblock Tracking uncertain shapes with probabilistic bounds in sensor
+  networks.
+\newblock In {\em Advances in Databases and Information Systems - 20th East
+  European Conference, {ADBIS} 2016, Prague, Czech Republic, August 28-31,
+  2016, Proceedings}, pages 338--351, 2016.
+
+\bibitem{fusion11}
+A.~Ballew, A.~Kuzmanovic, and C.~C. Lee.
+\newblock {Fusion of Live Audio Recordings for Blind Noise Reduction}.
+\newblock In {\em Proceedings of FUSION '11}, Chicago, IL, July 2011.
+
+\bibitem{fusion13}
+A.~Ballew, C.~C. Lee, and A.~Kuzmanovic.
+\newblock {Rayleigh-normalized Gaussian Noise in Blind Signal Fusion}.
+\newblock In {\em Proceedings of FUSION '13}, Istambul, Turkey, July 2013.
+
+\bibitem{vision12}
+A.~Ballew, S.~Srivastava, N.~Valtchanov, C.-C. Lee, and A.~Kuzmanovic.
+\newblock {Characterization of Vision-aided Indoor Localization and Landmark
+  Routing}.
+\newblock In {\em In Proceedings of The Sixth International Conference on
+  Innovative Mobile and Internet Services in Ubiquitous Computing (IMIS-2012)},
+  Palermo, Italy, July 2012.
+
+\bibitem{BergamaschiCVB01}
+Sonia Bergamaschi, Silvana Castano, Maurizio Vincini, and Domenico Beneventano.
+\newblock Semantic integration of heterogeneous information sources.
+\newblock {\em Data Knowl. Eng.}, 36(3):215--249, 2001.
+
+\bibitem{CastanoFMR04}
+Silvana Castano, Alfio Ferrara, Stefano Montanelli, and Gianpaolo Racca.
+\newblock A semantic approach for resource discovery in distributed systems.
+\newblock In {\em Proceedings of the Twelfth Italian Symposium on Advanced
+  Database Systems, {SEBD} 2004, S. Margherita di Pula, Cagliari, Italy, June
+  21-23, 2004}, pages 442--450, 2004.
+
+\bibitem{ChawatheKRS04}
+Sudarshan~S. Chawathe, Venkat Krishnamurthy, Sridhar Ramachandran, and
+  Sanjay~E. Sarma.
+\newblock Managing {RFID} data.
+\newblock In {\em (e)Proceedings of the Thirtieth International Conference on
+  Very Large Data Bases, Toronto, Canada, August 31 - September 3 2004}, pages
+  1189--1195, 2004.
+
+\bibitem{web06par}
+D.~Choffnes, J.~Lange, S.~Rossof, and A.~Kuzmanovic.
+\newblock On the use of parallel connections in web browsers.
+\newblock Technical report, October 2006.
+\newblock Tech. Report NWU-EECS-06-15, Department of EECS, Northwestern
+  University.
+
+\bibitem{cohen2010}
+Andre Cohen and Vladimir Pavlovic.
+\newblock {R}einforcement {L}earning for {R}obust and {E}fficient
+  {R}eal-{W}orld {T}racking.
+\newblock In {\em Pattern Recognition (ICPR), 2010 20th International
+  Conference on}, pages 2989--2992, 2010.
+
+\bibitem{Cohen98}
+William~W. Cohen.
+\newblock Integration of heterogeneous databases without common domains using
+  queries based on textual similarity.
+\newblock In {\em {SIGMOD} 1998, Proceedings {ACM} {SIGMOD} International
+  Conference on Management of Data, June 2-4, 1998, Seattle, Washington,
+  {USA.}}, pages 201--212, 1998.
+
+\bibitem{CouletGDAMS11}
+Adrien Coulet, Yael Garten, Michel Dumontier, Russ~B. Altman, Mark~A. Musen,
+  and Nigam~H. Shah.
+\newblock Integration and publication of heterogeneous text-mined relationships
+  on the semantic web.
+\newblock {\em J. Biomedical Semantics}, 2({S-2}):S10, 2011.
+
+\bibitem{pong07sigmetrics}
+L.~Deng and A.~Kuzmanovic.
+\newblock Pong: Diagnosing spatio-temporal {I}nternet congestion properties.
+\newblock In {\em {Proceedings of ACM SIGMETRICS '07 (poster paper)}}, San
+  Diego, California, June 2007.
+
+\bibitem{pong08icnp}
+L.~Deng and A.~Kuzmanovic.
+\newblock Monitoring persistently congested {I}nternet links.
+\newblock In {\em Proceedings of ICNP '08}, Orlando, FL, October 2008.
+
+\bibitem{dos05p2p}
+D.~Dumitriu, E.~Knightly, A.~Kuzmanovic, I.~Stoica, and W.~Zwaenepoel.
+\newblock Denial of service resilience in peer-to-peer file sharing systems.
+\newblock In {\em {Proceedings of ACM SIGMETRICS '05}}, Banff, Canada, 2005.
+
+\bibitem{ELS07}
+M.~Eid, R.~Liscano, and A.~El Saddik.
+\newblock A universal ontology for sensor networks data.
+\newblock In {\em IEEE International Conference on Computational Intelligence
+  for Measurement Systems and Applications}, 2007.
+
+\bibitem{ERA09}
+M.~Eisenhauer, P.~Rosengren, and P.~Antolin.
+\newblock A development platform for integrating wireless devices and sensors
+  into ambient intelligence systems.
+\newblock In {\em Sixth Annual IEEE Communications Society Conference on
+  Sensor, Mesh and Ad Hoc Communications and Networks Workshops}, 2009.
+
+\bibitem{ERA10}
+M.~Eisenhauer, P.~Rosengren, and P.~Antolin.
+\newblock Hydra: A development platform for integrating wireless devices and
+  sensors into ambient intelligence systems.
+\newblock In {\em The Internet of Things}, 2010.
+
+\bibitem{spam13pam}
+M.~Flores and A.~Kuzmanovic.
+\newblock {Searching for Spam: Detecting Fraudulent Accounts via Web Search}.
+\newblock In {\em Proceedings of Passive and Active Measurement Conference},
+  Los Angeles, California, March 2013.
+
+\bibitem{synthoid14wi}
+M.~Flores and A.~Kuzmanovic.
+\newblock {Synthoid: Endpoint User Profile Control}.
+\newblock In {\em Proceedings of IEEE/WIC/ACM International Conference on Web
+  Intelligence}, Warsaw, Poland, August 2014.
+
+\bibitem{FlorisMPA15}
+Alessandro Floris, Alessio Meloni, Virginia Pilloni, and Luigi Atzori.
+\newblock A qoe-aware approach for smart home energy management.
+\newblock In {\em 2015 {IEEE} Global Communications Conference, {GLOBECOM}
+  2015, San Diego, CA, USA, December 6-10, 2015}, pages 1--6, 2015.
+
+\bibitem{cache06icnp}
+Y.~Gao, L.~Deng, A.~Kuzmanovic, and Y.~Chen.
+\newblock Internet cache pollution attacks and countermeasures.
+\newblock In {\em Proceedings of IEEE ICNP '06}, Santa Barbara, CA, November
+  2006.
+
+\bibitem{GTKSS10}
+D.~Guinard, V.~Trifa, S.~Karnouskos, P.~Spiess, and D.~Savio.
+\newblock Interacting with the soa-based internet of things: Discovery, query,
+  selection, and ondemand provisioning of web services.
+\newblock {\em IEEE transactions on Services Computing}, 3(3), 2010.
+
+\bibitem{Hai-Jew16}
+Shalin Hai-Jew.
+\newblock {\em Social Media Data Extraction and Content Analysis}.
+\newblock {IGI} Global, 2016.
+
+\bibitem{HalevyRO06}
+Alon~Y. Halevy, Anand Rajaraman, and Joann~J. Ordille.
+\newblock Data integration: The teenage years.
+\newblock In {\em Proceedings of the 32nd International Conference on Very
+  Large Data Bases, Seoul, Korea, September 12-15, 2006}, pages 9--16, 2006.
+
+\bibitem{HammerGIPUW95}
+Joachim Hammer, Hector Garcia{-}Molina, Kelly Ireland, Yannis Papakonstantinou,
+  Jeffrey~D. Ullman, and Jennifer Widom.
+\newblock Information translation, mediation, and mosaic-based browsing in the
+  {TSIMMIS} system.
+\newblock In {\em Proceedings of the 1995 {ACM} {SIGMOD} International
+  Conference on Management of Data, San Jose, California, May 22-25, 1995.},
+  page 483, 1995.
+
+\bibitem{HLBT10}
+J.~Honkola, H.~Laine, R.~Brown, and O.~Tyrkko.
+\newblock Smart-m3 information sharing platform.
+\newblock In {\em IEEE Symposium on Computers and Communications (ISCC)}, 2010.
+
+\bibitem{std11ac}
+{IEEE Std 802.11ac-2013}.
+\newblock Amendment 4: Enhancements for very high throughput for operation in
+  bands below 6 ghz, 2013.
+
+\bibitem{IeraMA15}
+Antonio Iera, Giacomo Morabito, and Luigi Atzori.
+\newblock The social internet of things.
+\newblock In {\em 2015 {IEEE} International Conference on Cloud Engineering,
+  {IC2E} 2015, Tempe, AZ, USA, March 9-13, 2015}, page~1, 2015.
+
+\bibitem{Kapadia:2015:CAI:2699276.2699279}
+Mubbasir Kapadia, Jessica Falk, Fabio Z\"{u}nd, Marcel Marti, Robert~W. Sumner,
+  and Markus Gross.
+\newblock Computer-assisted authoring of interactive narratives.
+\newblock In {\em Proceedings of the 19th Symposium on Interactive 3D Graphics
+  and Games}, i3D '15, pages 85--92, New York, NY, USA, 2015. ACM.
+
+\bibitem{Kapadia:2016:CCN:2982818.2982846}
+Mubbasir Kapadia, Seth Frey, Alexander Shoulson, Robert~W. Sumner, and Markus
+  Gross.
+\newblock Canvas: Computer-assisted narrative animation synthesis.
+\newblock In {\em Proceedings of the ACM SIGGRAPH/Eurographics Symposium on
+  Computer Animation}, SCA '16, pages 199--209, Aire-la-Ville, Switzerland,
+  Switzerland, 2016. Eurographics Association.
+
+\bibitem{2015-fdg-bstl}
+Mubbasir Kapadia, Fabio Zund, Jessica Falk, Marcel Marti, Robert~W. Sumner, and
+  Markus Gross.
+\newblock Evaluating the authoring complexity of interactive narratives with
+  interactive behaviour trees.
+\newblock In {\em Foundations of Digital Games}, FDG'15, 2015.
+
+\bibitem{kim2012icpr}
+Jongpil Kim and Vladimir Pavlovic.
+\newblock Attribute rating for classification of visual objects.
+\newblock In {\em Proceedings of the 21st International Conference on Pattern
+  Recognition, {ICPR} 2012, Tsukuba, Japan, November 11-15, 2012}, pages
+  1611--1614, 2012.
+
+\bibitem{kim2013}
+Jongpil Kim, Sejong Yoon, and Vladimir Pavlovic.
+\newblock Relative spatial features for image memorability.
+\newblock In {\em {ACM} Multimedia Conference, {MM} '13, Barcelona, Spain,
+  October 21-25, 2013}, pages 761--764, 2013.
+
+\bibitem{Kim:2010:SOO:1927006.1927056}
+Minyoung Kim and Vladimir Pavlovic.
+\newblock {S}tructured output ordinal regression for dynamic facial emotion
+  intensity prediction.
+\newblock In Kostas Daniilidis, Petros Maragos, and Nikos Paragios, editors,
+  {\em Computer Vision - ECCV 2010}, volume 6313 of {\em Lecture Notes in
+  Computer Science}, pages 649--662, Berlin, Heidelberg, 2010. Springer-Verlag.
+
+\bibitem{kim11pami}
+Minyoung Kim and Vladimir Pavlovic.
+\newblock Central subspace dimensionality reduction using covariance operators.
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 33(4):657--670,
+  2011.
+
+\bibitem{kim11kdd}
+Minyoung Kim and Vladimir Pavlovic.
+\newblock Sequence classification via large margin hidden {Markov} models.
+\newblock {\em Data Min. Knowl. Discov.}, 23(2):322--344, 2011.
+
+\bibitem{KirstenR06}
+Toralf Kirsten and Erhard Rahm.
+\newblock Biofuice: Mapping-based data integration in bioinformatics.
+\newblock In {\em Data Integration in the Life Sciences, Third International
+  Workshop, {DILS} 2006, Hinxton, UK, July 20-22, 2006, Proceedings}, pages
+  124--135, 2006.
+
+\bibitem{mimo13sigcomm}
+S.~Kumar, D.~Cifuentes, S.~Gollakota, and D.~Katabi.
+\newblock {Bringing Cross-Layer MIMO to Today's Wireless LANs}.
+\newblock In {\em Proceedings of ACM SIGCOMM '13}, Hong Kong, China, August
+  2013.
+
+\bibitem{ecn05sigcomm}
+A.~Kuzmanovic.
+\newblock The power of explicit congestion notification.
+\newblock In {\em Proceedings of ACM SIGCOMM '05}, Philadelphia, PA, August
+  2005.
+
+\bibitem{ecn05rfc}
+A.~Kuzmanovic, S.~Floyd, and K.~Ramakrishnan.
+\newblock Adding explicit congestion notification ({ECN}) to {TCP SYN/ACK}
+  packets, October 2005.
+\newblock {IETF} draft, work in progress.
+
+\bibitem{KuzKni01}
+A.~Kuzmanovic and E.~Knightly.
+\newblock Measuring service in multi-class networks.
+\newblock In {\em Proceedings of IEEE INFOCOM '01}, Anchorage, Alaska, April
+  2001.
+
+\bibitem{shrew03sigcomm}
+A.~Kuzmanovic and E.~Knightly.
+\newblock Low-rate {TCP}-targeted denial of service attacks (the shrew vs. the
+  mice and elephants).
+\newblock In {\em Proceedings of ACM SIGCOMM '03}, Karlsruhe, Germany, August
+  2003.
+
+\bibitem{kuzkni-tpds}
+A.~Kuzmanovic and E.~Knightly.
+\newblock Measurement-based characterization and classification of
+  {QoS}-enhanced systems.
+\newblock {\em IEEE Transactions on Parallel and Distributed Systems},
+  14(7):671--685, July 2003.
+
+\bibitem{tcp-lp}
+A.~Kuzmanovic and E.~Knightly.
+\newblock {TCP-LP}: A distributed algorithm for low priority data transfer.
+\newblock In {\em Proceedings of IEEE INFOCOM '03}, San Francisco, CA, April
+  2003.
+
+\bibitem{shrewToN}
+A.~Kuzmanovic and E.~Knightly.
+\newblock Low-rate {TCP}-targeted denial of service attacks and counter
+  strategies.
+\newblock {\em IEEE\slash ACM Transactions on Networking}, 14(5), October 2006.
+
+\bibitem{tcp-lpToN}
+A.~Kuzmanovic and E.~Knightly.
+\newblock {TCP-LP}: Low-priority service via end-point congestion control.
+\newblock {\em IEEE\slash ACM Transactions on Networking}, 14(5), October 2006.
+
+\bibitem{receiver07jcn}
+A.~Kuzmanovic and E.~Knightly.
+\newblock Receiver-centric congestion control with a misbehaving receiver:
+  Vulnerabilities and end-point solutions.
+\newblock {\em Journal of Computer Networks, to appear}, 2007.
+
+\bibitem{hstcp-lp}
+A.~Kuzmanovic, E.~Knightly, and R.~Cottrell.
+\newblock {HSTCP-LP}: A protocol for low-priority data transfer in high-speed
+  high-{RTT} networks.
+\newblock In {\em {Proceedings of PFLDnet '04}}, Argonne, IL, February 2004.
+
+\bibitem{LiCLWPZB12}
+Xiaorong Li, Rodrigo~N. Calheiros, Sifei Lu, Long Wang, Henry~Novianus Palit,
+  Qin Zheng, and Rajkumar Buyya.
+\newblock Design and development of an adaptive workflow-enabled
+  spatial-temporal analytics framework.
+\newblock In {\em 18th {IEEE} International Conference on Parallel and
+  Distributed Systems, {ICPADS} 2012, Singapore, December 17-19, 2012}, pages
+  862--867, 2012.
+
+\bibitem{p2p10infocom}
+Z.~Li, A.~Goyal, Y.~Chen, and A.~Kuzmanovic.
+\newblock Measurement and diagnosis of address-misconfigured p2p traffic.
+\newblock In {\em Proceedings of INFOCOM '10}, San Diego, CA, March 2010.
+
+\bibitem{LZ05}
+J.~Liu and F.~Zhao.
+\newblock Towards semantic services for sensor-rich information systems.
+\newblock In {\em 2nd International Conference on Broadband Networks}, 2005.
+
+\bibitem{LuoAM14}
+Qi~Luo, Kartik~B. Ariyur, and Anoop~K. Mathur.
+\newblock Will the smart grid be stable: Approaches for supply-demand
+  imbalances.
+\newblock {\em {IEEE} Trans. Smart Grid}, 5(3):1361--1368, 2014.
+
+\bibitem{SSR05}
+A.~Wolisz M.~Sgroi and J.~M.~Rabaey A.~Sangiovanni-Vincetelli.
+\newblock A service-based universal application interface for ad hoc wireless.
+\newblock In W.~Weber, J.~Rabaey, and E.~H. Aarts, editors, {\em Ambient
+  Intelligence}. Springer, 2005.
+
+\bibitem{adver10infocom}
+G.~Macia, Y.~Wang, R.~Rodriguez, and A.~Kuzmanovic.
+\newblock {ISP}-enabled behavioral ad targeting without deep packet inspection.
+\newblock In {\em Proceedings of INFOCOM '10}, San Diego, CA, March 2010.
+
+\bibitem{ad10infocom}
+G.~Macia, Y.~Wang, R.~Rodriguez, and A.~Kuzmanovic.
+\newblock {ISP-Enabled Behavioral Ad Targeting without Deep Packet Inspection}.
+\newblock In {\em Proceedings of INFOCOM '10}, San Diego, CA, May 2010.
+
+\bibitem{MDMV09}
+D.~Massaguer, M.~Diallo, S.~Mehrotra, and N.~Venkatasubramanian.
+\newblock Middleware for pervasive spaces: Balancing privacy and utility.
+\newblock In {\em 10th International Middleware Conference Middleware:
+  ACM/IFIP/USENIX}, 2009.
+
+\bibitem{MelodiaPGA07}
+Tommaso Melodia, Dario Pompili, Vehbi~C. Gungor, and Ian~F. Akyildiz.
+\newblock Communication and coordination in wireless sensor and actor networks.
+\newblock {\em {IEEE} Trans. Mob. Comput.}, 6(10):1116--1129, 2007.
+
+\bibitem{MRPM08}
+E.~Meshkova, J.~Riihijarvi, M.~Petrova, and P.~Mahonen.
+\newblock A survey on resource discovery mechanisms, peer-to-peer and service
+  discovery frameworks.
+\newblock {\em Computer networks, Elsevier}, 52(11), 2008.
+
+\bibitem{tcpoison07icnp}
+A.~Mondal and A.~Kuzmanovic.
+\newblock A poisoning-resilient {TCP} stack.
+\newblock In {\em Proceedings of ICNP '07}, Beijing, China, October 2007.
+
+\bibitem{friendly07infocom}
+A.~Mondal and A.~Kuzmanovic.
+\newblock When {TCP} frinedliness becomes harmful.
+\newblock In {\em Proceedings of INFOCOM '07}, Anchorage, AL, May 2007.
+
+\bibitem{extr08ccr}
+A.~Mondal and A.~Kuzmanovic.
+\newblock Removing exponential backoff from {TCP}.
+\newblock {\em ACM Computer Comm. Review}, 38(5):17--28, 2008.
+
+\bibitem{MorrisTP10}
+Meredith~Ringel Morris, Jaime Teevan, and Katrina Panovich.
+\newblock A comparison of information seeking using search engines and social
+  networks.
+\newblock In {\em Proceedings of the Fourth International Conference on Weblogs
+  and Social Media, {ICWSM} 2010, Washington, DC, USA, May 23-26, 2010}, 2010.
+
+\bibitem{MostafaviM10}
+Sara Mostafavi and Quaid Morris.
+\newblock Fast integration of heterogeneous data sources for predicting gene
+  function with limited annotation.
+\newblock {\em Bioinformatics}, 26(14):1759--1765, 2010.
+
+\bibitem{nicolaou12eccv}
+Mihalis~A. Nicolaou, Vladimir Pavlovic, and Maja Pantic.
+\newblock Dynamic probabilistic {CCA} for analysis of affective behaviour.
+\newblock In {\em Computer Vision - {ECCV} 2012 - 12th European Conference on
+  Computer Vision, Florence, Italy, October 7-13, 2012, Proceedings, Part
+  {VII}}, pages 98--111, 2012.
+
+\bibitem{nicolaou14pami}
+Mihalis~A. Nicolaou, Vladimir Pavlovic, and Maja Pantic.
+\newblock Dynamic probabilistic {CCA} for analysis of affective behavior and
+  fusion of continuous annotations.
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 36(7):1299--1311,
+  2014.
+
+\bibitem{NittiPCA16}
+Michele Nitti, Virginia Pilloni, Giuseppe Colistra, and Luigi Atzori.
+\newblock The virtual object as a major element of the internet of things: {A}
+  survey.
+\newblock {\em {IEEE} Communications Surveys and Tutorials}, 18(2):1228--1240,
+  2016.
+
+\bibitem{PandeyB12}
+Suraj Pandey and Rajkumar Buyya.
+\newblock Scheduling workflow applications based on multi-source parallel data
+  retrieval in distributed computing networks.
+\newblock {\em Comput. J.}, 55(11):1288--1308, 2012.
+
+\bibitem{PoolaRB16}
+Deepak Poola, Kotagiri Ramamohanarao, and Rajkumar Buyya.
+\newblock Enhancing reliability of workflow execution using task replication
+  and spot instances.
+\newblock {\em {TAAS}}, 10(4):30, 2016.
+
+\bibitem{PBEV09}
+M.~Presser, P.~Barnaghi, M.~Eurich, and C.~Villalonga.
+\newblock The sensei project: Integrating the physical world with the digital
+  world of the network of the future.
+\newblock {\em IEEE Communications Magazine}, 47(4), 2009.
+
+\bibitem{cobis07}
+CoBIs project.
+\newblock Cobis final project report.
+\newblock Technical Report deliverable 104 v 2.0, [Online]. Available:
+  http://www.cobis-online.de/files/Deliverable D104V2.pdf, 2007.
+
+\bibitem{rudovic13iccv}
+O.~Rudovic, V.~Pavlovic, and M.~Pantic.
+\newblock Context-sensitive conditional ordinal random fields for facial action
+  intensity estimation.
+\newblock In {\em Computer Vision Workshops (ICCVW), 2013 IEEE International
+  Conference on}, pages 492--499, Dec 2013.
+
+\bibitem{rudovic12eccvws}
+Ognjen Rudovic, Vladimir Pavlovic, and Maja Pantic.
+\newblock Kernel conditional ordinal random fields for temporal segmentation of
+  facial action units.
+\newblock In {\em Computer Vision - {ECCV} 2012. Workshops and Demonstrations -
+  Florence, Italy, October 7-13, 2012, Proceedings, Part {II}}, pages 260--269,
+  2012.
+
+\bibitem{rudovic12cvpr}
+Ognjen Rudovic, Vladimir Pavlovic, and Maja Pantic.
+\newblock Multi-output laplacian dynamic ordinal regression for facial
+  expression recognition and intensity estimation.
+\newblock In {\em 2012 {IEEE} Conference on Computer Vision and Pattern
+  Recognition, Providence, RI, USA, June 16-21, 2012}, pages 2634--2641, 2012.
+
+\bibitem{rudovic13isvc}
+Ognjen Rudovic, Vladimir Pavlovic, and Maja Pantic.
+\newblock Automatic pain intensity estimation with heteroscedastic conditional
+  ordinal random fields.
+\newblock In {\em Advances in Visual Computing - 9th International Symposium,
+  {ISVC} 2013, Rethymnon, Crete, Greece, July 29-31, 2013. Proceedings, Part
+  {II}}, pages 234--243, 2013.
+
+\bibitem{rudovic15pami}
+Ognjen Rudovic, Vladimir Pavlovic, and Maja Pantic.
+\newblock Context-sensitive dynamic ordinal regression for intensity estimation
+  of facial action units.
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 37(5):944--958,
+  2015.
+
+\bibitem{SalarianCN12}
+Hamidreza Salarian, Kwan{-}Wu Chin, and Fazel Naghdy.
+\newblock Coordination in wireless sensor-actuator networks: {A} survey.
+\newblock {\em J. Parallel Distrib. Comput.}, 72(7):856--867, 2012.
+
+\bibitem{Shariat2011}
+Shahriar Shariat and Vladimir Pavlovic.
+\newblock Isotonic {CCA} for sequence alignment and activity recognition.
+\newblock In {\em {IEEE} International Conference on Computer Vision, {ICCV}
+  2011, Barcelona, Spain, November 6-13, 2011}, pages 2572--2578, 2011.
+
+\bibitem{shariat12acml}
+Shahriar Shariat and Vladimir Pavlovic.
+\newblock Improved sequence classification using adaptive segmental sequence
+  alignment.
+\newblock In {\em Proceedings of the 4th Asian Conference on Machine Learning,
+  {ACML} 2012, Singapore, Singapore, November 4-6, 2012}, pages 379--394, 2012.
+
+\bibitem{shariat13iccv}
+Shahriar Shariat and Vladimir Pavlovic.
+\newblock A new adaptive segmental matching measure for human activity
+  recognition.
+\newblock In {\em {IEEE} International Conference on Computer Vision, {ICCV}
+  2013, Sydney, Australia, December 1-8, 2013}, pages 3583--3590, 2013.
+
+\bibitem{Shen2015-jr}
+Y~Shen.
+\newblock {\em Social Network Mining and Its Applications}.
+\newblock PhD thesis, Kent State University, 2015.
+
+\bibitem{Shen2012-vi}
+Y~Shen, R~Jin, D~Dou, N~Chowdhury, J~Sun, B~Piniewski, and D~Kil.
+\newblock Socialized gaussian process model for human behavior prediction in a
+  health social network.
+\newblock In {\em 2012 {IEEE} 12th International Conference on Data Mining},
+  pages 1110--1115, December 2012.
+
+\bibitem{Shen2015-ft}
+Yelong Shen, Nhathai Phan, Xiao Xiao, Ruoming Jin, Junfeng Sun, Brigitte
+  Piniewski, David Kil, and Dejing Dou.
+\newblock Dynamic socialized gaussian process models for human behavior
+  prediction in a health social network.
+\newblock {\em Knowl. Inf. Syst.}, 49(2):455--479, 31~December 2015.
+
+\bibitem{Shoulson:2011:PBT:2177817.2177835}
+Alexander Shoulson, Francisco~M. Garcia, Matthew Jones, Robert Mead, and
+  Norman~I. Badler.
+\newblock Parameterizing behavior trees.
+\newblock In {\em Proceedings of the 4th International Conference on Motion in
+  Games}, MIG'11, pages 144--155, Berlin, Heidelberg, 2011. Springer-Verlag.
+
+\bibitem{Shoulson:2013:EPA:2522628.2522629}
+Alexander Shoulson, Max~L. Gilbert, Mubbasir Kapadia, and Norman~I. Badler.
+\newblock An event-centric planning approach for dynamic real-time narrative.
+\newblock In {\em Proceedings of Motion on Games}, MIG '13, pages
+  99:121--99:130, New York, NY, USA, 2013. ACM.
+
+\bibitem{akamai08icdcs}
+A.-J. Su, D.~Choffnes, F.~Bustamante, and A.~Kuzmanovic.
+\newblock Relative network positioning via {CDN} redirections.
+\newblock In {\em {Proceedings of ICDCS '08}}, Beijing, China, June 2008.
+
+\bibitem{akamai06sigcomm}
+A.-J. Su, D.~Choffnes, A.~Kuzmanovic, and F.~Bustamante.
+\newblock Drafting behind {A}kamai ({T}ravelocity-based detouring).
+\newblock In {\em Proceedings of ACM SIGCOMM '06}, Pisa, Italy, September 2006.
+
+\bibitem{myths10wi}
+A.-J. Su, Y.~C. Hu, A.~Kuzmanovic, and C.-K. Koh.
+\newblock {How to Improve Your Google Ranking: Myths and Reality}.
+\newblock In {\em Proceedings of IEEE/WIC/ACM International Conference on Web
+  Intelligence}, Toronto, CA, August 2010.
+
+\bibitem{myths14tweb}
+A.-J. Su, Y.~C. Hu, A.~Kuzmanovic, and C.-K. Koh.
+\newblock How to improve your search engine ranking: Myths and reality.
+\newblock {\em ACM Transactions on the Web}, March 2014.
+
+\bibitem{aj08imc}
+A.-J. Su and A.~Kuzmanovic.
+\newblock Thinning {A}kamai.
+\newblock In {\em USENIX/ACM IMC}, Vouliagmeni, Greece, October 2008.
+
+\bibitem{ToosiCB14}
+Adel~Nadjaran Toosi, Rodrigo~N. Calheiros, and Rajkumar Buyya.
+\newblock Interconnected cloud computing environments: Challenges, taxonomy,
+  and survey.
+\newblock {\em {ACM} Comput. Surv.}, 47(1):7:1--7:47, 2014.
+
+\bibitem{Torlone08}
+Riccardo Torlone.
+\newblock Two approaches to the integration of heterogeneous data warehouses.
+\newblock {\em Distributed and Parallel Databases}, 23(1):69--97, 2008.
+
+\bibitem{move12www}
+I.~Trestian, K.~Huguenin, L.~Su, and A.~Kuzmanovic.
+\newblock {Understanding Human Movement Semantics: A Point of Interest Based
+  Approach}.
+\newblock In {\em Poster paper in proceedings of WWW '12}, Lyon, France, April
+  2012.
+
+\bibitem{google08sigcomm}
+I.~Trestian, S.~Ranjan, A.~Kuzmanovic, and A.~Nucci.
+\newblock Unconstrained endpoint profiling: Googling the {I}nternet.
+\newblock In {\em Proceedings of ACM SIGCOMM '08}, Seattle, WA, August 2008.
+
+\bibitem{serendipity09imc}
+I.~Trestian, S.~Ranjan, A.~Kuzmanovic, and A.~Nucci.
+\newblock Measuring serendipity: Conecting people, interests and locations in a
+  mobile {3G} network.
+\newblock In {\em ACM IMC '09}, Chicago, IL, 2009.
+
+\bibitem{glance13wow}
+I.~Trestian, C.~Xiao, and A.~Kuzmanovic.
+\newblock {A Glance at an Overlooked Part of the World Wide Web}.
+\newblock In {\em Proceedings of the 1st International Web Observatory
+  Workshop, {WOW2013}}, Rio De Janeiro, Brazil, May 2013.
+
+\bibitem{VenturiniJL15}
+Tommaso Venturini, Pablo Jensen, and Bruno Latour.
+\newblock Fill in the gap: {A} new alliance for social and natural sciences.
+\newblock {\em J. Artificial Societies and Social Simulation}, 18(2), 2015.
+
+\bibitem{geo11nsdi}
+Y.~Wang, D.~Burgener, M.~Flores, A.~Kuzmanovic, and C.~Huang.
+\newblock {Towards Street-Level Client-Independent IP Geolocation}.
+\newblock In {\em Proceedings of NSDI '11}, Cambridge, MA, March 2011.
+
+\bibitem{ad10www}
+Y.~Wang, D.~Burgener, A.~Kuzmanovic, and G.~Macia.
+\newblock {Analyzing Content-Level Properties of the Web Adversphere}.
+\newblock In {\em Poster paper in proceedings of WWW '10}, Raleigh, NC, April
+  2010.
+
+\bibitem{adver11icdcs}
+Y.~Wang, D.~Burgener, A.~Kuzmanovic, and G.~Macia.
+\newblock Understanding the network and user-targeting properties of web
+  advertising networks.
+\newblock In {\em {Proceedings of ICDCS '11}}, Minneapolis, MN, June 2011.
+
+\bibitem{migration11wi}
+Y.~Wang, K.~Pal, and A.~Kuzmanovic.
+\newblock {Understanding Crowds' Migration on the Web}.
+\newblock In {\em Proceedings of IEEE/WIC/ACM International Conference on Web
+  Intelligence}, Lion, France, August 2011.
+
+\bibitem{Zwave12}
+Z~wave Alliance, 2012.
+
+\bibitem{Wifi}
+Wi-Fi.
+
+\bibitem{geoecho14wi}
+N.~Xia, S.~Miskovic, M.~Baldi, A.~Kuzmanovic, and A.~Nucci.
+\newblock {GeoEcho: Inferring User Interests from Geotag Reports in Network
+  Traffic}.
+\newblock In {\em Proceedings of IEEE/WIC/ACM International Conference on Web
+  Intelligence}, Warsaw, Poland, August 2014.
+
+\bibitem{mosaic13sigcomm}
+N.~Xia, H.~Song, Y.~Liao, M.~Iliofotou, A.~Nucci, Z.~Zhang, and A.~Kuzmanovic.
+\newblock {Mosaic: Quantifying Privacy Leakage in Mobile Networks}.
+\newblock In {\em Proceedings of ACM SIGCOMM '13}, Hong Kong, China, August
+  2013.
+
+\bibitem{selective12wi}
+C.~Xiao, L.~Su, J.~Bi, Y.~Xue, and A.~Kuzmanovic.
+\newblock {Selective Behavior in Online Social Networks}.
+\newblock In {\em Proceedings of IEEE/WIC/ACM International Conference on Web
+  Intelligence}, Macao, China, December 2012.
+
+\bibitem{rudovic2014icvs}
+Shuang Yang, Ognjen Rudovic, Vladimir Pavlovic, and Maja Pantic.
+\newblock Personalized modeling of facial action unit intensity.
+\newblock In {\em Advances in Visual Computing - 10th International Symposium,
+  {ISVC} 2014, Las Vegas, NV, USA, December 8-10, 2014, Proceedings, Part
+  {II}}, pages 269--281, 2014.
+
+\bibitem{yi14icpr}
+Saehoon Yi, Piotr~W. Mirowski, Tin~Kam Ho, and Vladimir Pavlovic.
+\newblock Pose invariant activity classification for multi-floor indoor
+  localization.
+\newblock In {\em 22nd International Conference on Pattern Recognition, {ICPR}
+  2014, Stockholm, Sweden, August 24-28, 2014}, pages 3505--3510, 2014.
+
+\bibitem{yi13iccv}
+Saehoon Yi and V.~Pavlovic.
+\newblock Spatio-temporal context modeling for bow-based video classification.
+\newblock In {\em Computer Vision Workshops (ICCVW), 2013 IEEE International
+  Conference on}, pages 779--786, Dec 2013.
+
+\bibitem{yi12icpr}
+Saehoon Yi and Vladimir Pavlovic.
+\newblock Sparse granger causality graphs for human action classification.
+\newblock In {\em Proceedings of the 21st International Conference on Pattern
+  Recognition, {ICPR} 2012, Tsukuba, Japan, November 11-15, 2012}, pages
+  3374--3377, 2012.
+
+\bibitem{yoon2016}
+Sejong Yoon, Mubbasir Kapadia, Pritish Sahu, and Vladimir Pavlovic.
+\newblock {Filling in the Blanks: Reconstructing Microscopic Crowd Motion from
+  Multiple Disparate Noisy Sensors}.
+\newblock In {\em 1st Workshop on Computer Vision Applications in Surveillance
+  and Transportation (AVSTI) in conjunction with IEEE Winter Conference on
+  Applications of Computer Vision (WACV)}, 2016.
+
+\bibitem{ZanellaBCVZ14}
+Andrea Zanella, Nicola Bui, Angelo~Paolo Castellani, Lorenzo Vangelista, and
+  Michele Zorzi.
+\newblock Internet of things for smart cities.
+\newblock {\em {IEEE} Internet of Things Journal}, 1(1):22--32, 2014.
+
+\bibitem{ZH08}
+W.~Zhang and K.~Hansen.
+\newblock Semantic web based self-management for a pervasive service
+  middleware.
+\newblock In {\em Second IEEE International Conference on Self-Adaptive and
+  Self-Organizing Systems}, 2008.
+
+\bibitem{ZH09}
+W.~Zhang and K.~Hansen.
+\newblock An evaluation of the nsga-ii and mocell genetic algorithms for
+  self-management planning in a pervasive service middleware.
+\newblock In {\em 14th IEEE International Conference on Engineering of Complex
+  Computer Systems}, 2009.
+
+\bibitem{ZMN05}
+F.~Zhu, M.~Mutka, and L.~Ni.
+\newblock Service discovery in pervasive computing environments.
+\newblock {\em Pervasive Computing, IEEE}, 4(4), 2005.
+
+\end{thebibliography}
