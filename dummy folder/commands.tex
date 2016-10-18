@@ -1,0 +1,440 @@
+
+
+%% references 
+\newcommand{\refsec}[1]{Section~\ref{#1}}
+\newcommand{\refeq}[1]{Eq.~\ref{#1}}
+\newcommand{\reffig}[1]{Fig.~\ref{#1}}
+\newcommand{\reftab}[1]{Table~\ref{#1}}
+\newcommand{\refalg}[1]{Alg.~\ref{#1}}
+\newcommand{\refline}[1]{Line~\ref{#1}}
+\newcommand{\reflines}[2]{Lines~\ref{#1}-\ref{#2}}
+\newcommand{\refprop}[1]{Proposition~\ref{#1}}
+\newcommand{\refsupp}[1]{~\cref{S#1}}
+\newcommand{\refsupps}[2]{~\cref{S#1,S#2}}
+
+\newcommand*\BitAnd{\mathrel{\&}}
+\newcommand*\BitOr{\mathrel{|}}
+\newcommand*\ShiftLeft{\ll}
+\newcommand*\ShiftRight{\gg}
+\newcommand*\BitNeg{\ensuremath{\mathord{\sim}}}
+
+\newcommand*\powerSetSymbol{\ensuremath{\mathcal{P}}\xspace}
+\newcommand*\powerSet[1]{\ensuremath{\mathcal{P}\left(#1\right)}\xspace}
+\newcommand*\numParameters{\ensuremath{n}\xspace}
+
+\newcommand{\suchthat}{\, \mid \,} % nice "such that"
+
+
+\newcommand{\camerareadycomment}[1]{}
+
+\newcommand{\mysymbola}{\textcolor{mycolora}{$\mathbf{\ominus}$}\xspace}
+\newcommand{\mysymbolb}{\textcolor{mycolorb}{$\mathbf{\oplus}$}\xspace}
+
+\newcommand{\theoretical}[1]{\SetCommentSty{mycommfonta} \textcolor{mycolora}{#1} \tcp*{\mysymbola}}
+\newcommand{\practical}[1]{\SetCommentSty{mycommfontb} \textcolor{mycolorb}{#1} \tcp*{\mysymbolb}}
+
+\newcommand{\eventsig}[1]{\textit{#1}}
+
+\newcommand{\CANVAS}{\texttt{CANVAS}\xspace}
+
+\newcommand{\world}{\ensuremath{\mathcal{W}}\xspace}
+\newcommand{\smartobj}[1]{\ensuremath{w_{#1}}\xspace}
+
+%% TODO remove 
+\newcommand{\smartobjs}{\ensuremath{\mathbf{S}}}
+
+%% TODO consoldiate smartobject group and group state 
+\newcommand{\smartObjectGroup}[1]{\ensuremath{\mathbf{w}_{#1}}\xspace}
+
+\newcommand{\affordances}{\ensuremath{\mathbf{F}}}
+\newcommand{\affordance}{\ensuremath{f}}
+\newcommand{\affordanceowner}{\ensuremath{w_o}}
+\newcommand{\affordanceuser}{\ensuremath{w_u}}
+
+\newcommand{\state}[1]{\ensuremath{s_{#1}}}
+\newcommand{\worldstate}{\ensuremath{\mathbf{\state{}}}}
+\newcommand{\groupState}[1]{\ensuremath{\mathbf{\state{}}_{#1}}}
+
+\newcommand{\nextState}[1]{\ensuremath{s_{#1}^{'}}}
+\newcommand{\nextGroupState}[1]{\ensuremath{\mathbf{\state{}}_{#1}{'}}}
+\newcommand{\currentGroupState}[2]{\ensuremath{\mathbf{\state{}}_{#1}^{#2}}}
+
+%% TODO 
+\newcommand{\states}{\ensuremath{S}} %% ?? 
+\newcommand{\worldstates}{\ensuremath{\boldsymbol{\Psi}}}
+
+\newcommand{\attributeSymbol}{\ensuremath{\theta}\xspace}
+\newcommand{\attributemapping}[2]{\ensuremath{\attributeSymbol(#1,#2)}}
+\newcommand{\numAttributes}{\ensuremath{N}}
+%\newcommand{\attributemappings}{\ensuremath{\Theta}}
+\newcommand{\attributeLabel}[1]{\texttt{#1}\xspace}
+
+\newcommand{\Incapacitated}[1]{\attributeLabel{Incapacitated}(#1)\xspace}
+\newcommand{\HasWeapon}[1]{\attributeLabel{HasWeapon}(#1)\xspace}
+\newcommand{\HasKeys}[1]{\attributeLabel{HasKeys}(#1)\xspace}
+\newcommand{\HasBriefcase}[1]{\attributeLabel{HasMoney}(#1)\xspace}
+\newcommand{\Unlocked}[1]{\attributeLabel{Unlocked}(#1)\xspace}
+
+\newcommand{\MButtonPressed}[1]{\attributeLabel{BMPressed}(#1)\xspace}
+\newcommand{\TButtonPressed}[1]{\attributeLabel{BTPressed}(#1)\xspace}
+\newcommand{\ButtonPressed}[2]{\attributeLabel{BTPressed}(#1,#2)\xspace}
+
+\newcommand{\IsOpen}[1]{\attributeLabel{Open}(#1)\xspace}
+\newcommand{\LeftHandEmpty}[1]{\attributeLabel{LHandEmpty}(#1)\xspace}
+\newcommand{\RightHandEmpty}[1]{\attributeLabel{RHandEmpty}(#1)\xspace}
+\newcommand{\Occupied}[1]{\attributeLabel{Occupied}(#1)\xspace}
+\newcommand{\IsGuardable}[1]{\ruleLabel{IsGuardable}(#1)\xspace}
+\newcommand{\IsUnguarded}[1]{\ruleLabel{IsUnguarded}(#1)\xspace}
+
+
+\newcommand{\relationshipSymbol}{\ensuremath{R}}
+\newcommand{\relationship}[3]{\ensuremath{\relationshipSymbol_{#3}(#1,#2)}}
+\newcommand{\relationshipLabel}[1]{\texttt{#1}\xspace}
+
+\newcommand{\IsAlliedWith}[2]{\relationshipLabel{AlliedWith}(#1,#2)\xspace}
+\newcommand{\IsGuarding}[2]{\relationshipLabel{IsGuarding}(#1,#2)\xspace}
+\newcommand{\IsInZone}[2]{\relationshipLabel{InZone}(#1,#2)\xspace}
+\newcommand{\FrontZone}[2]{\relationshipLabel{FrontZone}(#1,#2)\xspace}
+
+
+\newcommand{\ruleLabel}[1]{\texttt{#1}\xspace}
+\newcommand{\CanAccessObject}[2]{\ruleLabel{CanAccess}(#1,#2)\xspace}
+\newcommand{\CanAccessZone}[2]{\ruleLabel{CanAccessZone}(#1,#2)\xspace}
+\newcommand{\CanManipulateObject}[2]{\ruleLabel{CanManipulate}(#1,#2)\xspace}
+\newcommand{\PathExistsForObject}[3]{\ruleLabel{PathExistsForObject}(#1,#2,#3)\xspace}
+
+
+\newcommand{\true}{\textnormal{\texttt{TRUE}}\xspace}
+\newcommand{\false}{\textnormal{\texttt{FALSE}}\xspace}
+\newcommand{\unknown}{\textnormal{\texttt{UNKNOWN}}\xspace}
+
+\newcommand{\event}{\ensuremath{e}\xspace}
+
+\newcommand{\roleSet}[1]{\ensuremath{\mathbf{r}_{#1}}}
+\newcommand{\role}[1]{\ensuremath{r_{#1}}}
+\newcommand{\roleFunction}[2]{\ensuremath{r_{#1}(#2)}}
+\newcommand{\validBin}[1]{\ensuremath{l_{{\role{}}^{#1}}}}
+
+%\newcommand{\preconditionSet}[1]{\ensuremath{\mathbf{\Phi}_{#1}}}
+
+\newcommand{\precondition}[1]{\ensuremath{{\Phi}_{#1}}}
+\newcommand{\preconditionFunction}[2]{\ensuremath{{\Phi}_{#1}(#2)}}
+
+\newcommand{\clause}[2]{\ensuremath{\phi_{#1}^{#2}}}
+
+
+\newcommand{\postcondition}[1]{\ensuremath{{\Omega}_{#1}}}
+\newcommand{\postconditionFunction}[2]{\ensuremath{{\Omega}_{#1}(#2)}}
+
+%% this is just basically using smart object group -- TODO: remove 
+\newcommand{\participants}[1]{\ensuremath{P}}
+
+
+%\newcommand{\roles}{\ensuremath{\mathbf{R}}}
+%\newcommand{\rolespec}{\ensuremath{\mathbf{C}}}
+
+%\newcommand{\smartactor}{\ensuremath{a}}
+
+\newcommand{\tree}{\ensuremath{t}\xspace}
+\newcommand{\routine}{\ensuremath{\rho}}
+
+
+\newcommand{\lexicon}{\ensuremath{\mathcal{E}}\xspace}
+\newcommand{\crowdLexicon}{\ensuremath{\lexicon_{g}}}
+
+%%% TODO THIS SHOULD BE REMOVED 
+%\newcommand{\events}{\ensuremath{\mathcal{L}}\xspace}
+
+
+%\newcommand{\role}{\ensuremath{r}}
+
+
+\newcommand{\crowd}{\ensuremath{\smartobj{g}}}
+\newcommand{\members}{\ensuremath{\mathbf{M}}}
+
+
+
+\newcommand{\decision}{\ensuremath{d}}
+\newcommand{\priority}{\ensuremath{p}}
+\newcommand{\instance}{\ensuremath{I}\xspace}
+
+\newcommand{\newInstance}{\ensuremath{I_{\scriptscriptstyle \mathrm{new}}}\xspace}
+\newcommand{\startInstance}{\ensuremath{I_{\scriptscriptstyle \mathrm{0}}}\xspace}
+
+
+
+\newcommand{\instances}{\ensuremath{\mathbb{I}}}
+\newcommand{\beat}{\ensuremath{\mathbf{B}}\xspace}
+
+\newcommand{\arc}{\ensuremath{\alpha}\xspace}
+
+
+\newcommand{\storysequence}{\ensuremath{Q}}
+\newcommand{\vertices}{\ensuremath{V}}
+\newcommand{\smartobjectvertices}{\ensuremath{V_S}}
+\newcommand{\eventvertices}{\ensuremath{V_I}}
+
+\newcommand{\participationedge}{\ensuremath{\pi}}
+\newcommand{\participationedges}{\ensuremath{E_\pi}}
+\newcommand{\sequenceedge}{\ensuremath{\sigma}}
+\newcommand{\sequenceedges}{\ensuremath{E_\sigma}}
+\newcommand{\terminationedges}{\ensuremath{E_\varphi}}
+
+\newcommand{\edges}{\ensuremath{E}}
+\newcommand{\smartobjectedges}{\ensuremath{E_S}}
+\newcommand{\eventedges}{\ensuremath{E_I}}
+\newcommand{\edge}{\ensuremath{e}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% POP SYMBOLS JANUARY 2015 %%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\partialArc}{\ensuremath{\alpha_{p}}\xspace}
+\newcommand{\completeArc}{\ensuremath{\alpha_{c}}\xspace}
+
+\newcommand{\pop}{\ensuremath{\pi}\xspace}
+\newcommand{\partialPop}{\ensuremath{\pi_p}\xspace}
+\newcommand{\completePop}{\ensuremath{\pi_c}\xspace}
+
+\newcommand{\lessThan}{\ensuremath{\prec}\xspace}
+\newcommand{\st}{\ensuremath{\; \textnormal{s.t.} \;}\xspace}
+
+\newcommand{\eventInstanceSet}{\ensuremath{\mathcal{I}}\xspace}
+%\newcommand{\endInstanceSet}{\ensuremath{\mathcal{I}}\xspace}
+
+\newcommand{\instanceSetEnd}{\ensuremath{\mathcal{I}_{\scriptscriptstyle \textnormal{end}}}\xspace}
+
+
+\newcommand{\orderingConstraint}{\ensuremath{\mathbf{o}}\xspace}
+\newcommand{\orderingConstraintSet}{\ensuremath{\mathcal{O}}\xspace}
+\newcommand{\bindingConstraintSet}{\ensuremath{\mathcal{B}}\xspace}
+
+\newcommand{\causalLink}{\ensuremath{\mathbf{l}}\xspace}
+\newcommand{\causalLinkSet}{\ensuremath{\mathcal{L}}\xspace}
+
+\newcommand{\agenda}{\ensuremath{\mathcal{A}}\xspace}
+\newcommand{\agendaItem}{\ensuremath{a}\xspace}
+%\newcommand{\agenda}{\ensuremath{\mathcal{A}}\xspace}
+
+%%% algorithm 
+
+\newcommand{\resolveStoryArcFunction}{\textbf{Resolve}\xspace}
+\newcommand{\plannerFunction}{\textbf{Plan}\xspace}
+\newcommand{\keyFunction}{\textbf{key}\xspace}
+\newcommand{\linearizeFunction}{\textbf{Linearize}\xspace}
+\newcommand{\consistentFunction}{\textnormal{\textbf{Consistent}}\xspace}
+
+
+%Planning
+\newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}
+
+%% TODO this should be removed
+%% Why?
+\newcommand{\attribute}{\ensuremath{a}}
+
+
+%% TODO remove 
+\newcommand{\id}{\ensuremath{i}}
+
+\newcommand{\constraint}[1]{\ensuremath{C_{#1}}\xspace}
+
+\newcommand{\sequence}{\ensuremath{\boldsymbol{\Pi}}}
+\newcommand{\transitions}{\ensuremath{\boldsymbol{\Gamma}}}
+\newcommand{\immutables}{\ensuremath{I}}
+\newcommand{\cost}{\ensuremath{c}}
+\newcommand{\Rule}{\ensuremath{\mathcal{R}}}
+\newcommand{\Rules}{\ensuremath{\mathbf{R}}}
+
+%Functions
+\newcommand{\functionStyle}[1]{\textbf{{#1}}}
+
+\newcommand{\relaxedFillIn}[2]{\ensuremath{\functionStyle{RelaxedFillIn} (#1, #2)}\xspace}
+\newcommand{\computeTransitionList}[2]{\functionStyle{ComputeTransitionList ({#1}, {#2})}\xspace}
+\newcommand{\detectInconsistencies}[2]{\functionStyle{DetectInconsistencies ({#1}, {#2})}\xspace}
+\newcommand{\buildActionSpace}[2]{\functionStyle{BuildActionSpace ({#1}, {#2})}\xspace}
+\newcommand{\findConsistentArc}[3]{\functionStyle{FindConsistentArc ({#1}, {#2}, {#3})}\xspace}
+\newcommand{\simulate}[2]{\ensuremath{\functionStyle{Simulate}(#1,#2)}\xspace}
+
+\newcommand{\planFunction}[1]{\ensuremath{\functionStyle{Plan}(#1)}\xspace}
+
+\newcommand{\generateParametersFunction}[1]{\ensuremath{\functionStyle{GenerateBindings}(#1)}\xspace}
+
+\newcommand{\curTry}{\ensuremath{j}\xspace}
+\newcommand{\curTryF}{\ensuremath{k}\xspace}
+\newcommand{\cutoff}{\ensuremath{\varepsilon}\xspace}
+\newcommand{\nrPopulations}{\ensuremath{\lambda}\xspace}
+
+
+\newcommand{\nrOnes}[1]{\ensuremath{||{#1}||_b}}
+
+\newcommand{\heuristicFunction}[2]{\ensuremath{h(#1,#2)}\xspace}
+
+
+\newcommand{\problemdomain}{\ensuremath{\Sigma}}
+\newcommand{\probleminstance}{\ensuremath{\mathbf{P}}}
+\newcommand{\bitmask}[1]{\ensuremath{\beta(#1)}}
+\newcommand{\paths}{\ensuremath{\mathcal{P}}}
+
+\newcommand{\planSymbol}{\ensuremath{\boldsymbol{\Pi}}\xspace}
+%\newcommand{\plan}[2]{\ensuremath{\boldsymbol{\Pi}(#1,#2)}\xspace}
+
+
+%\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+%\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+
+
+\newcommand{\spaciousItemize}{\setlist{topsep=0pt, parsep=5pt, partopsep=0pt, leftmargin=10pt}}
+\newcommand{\spaciousEnumerate}{\setlist{topsep=0pt, parsep=5pt, partopsep=0pt, leftmargin=15pt}}
+\newcommand{\tightItemize}{\setlist{topsep=0pt, parsep=2pt, partopsep=0pt, leftmargin=10pt}}
+\newcommand{\tightEnumerate}{\setlist{topsep=0pt, parsep=2pt, partopsep=0pt, leftmargin=15pt}}
+
+\newcommand{\symStateMember}[1]{\texttt{#1}}
+\newcommand{\symNot}[1]{\ensuremath{\neg}#1\xspace}
+
+\newcommand{\matchRules}[0]{\ensuremath{B}\xspace}
+\newcommand{\matchRule}[0]{\ensuremath{\beta}\xspace}
+\newcommand{\rejectRules}[0]{\ensuremath{\Theta}\xspace}
+\newcommand{\rejectRule}[0]{\ensuremath{\theta}\xspace}
+\newcommand{\populations}[0]{\ensuremath{\mathbf{PO}}\xspace}
+\newcommand{\population}[0]{\ensuremath{\alpha}\xspace}
+\newcommand{\match}[0]{\ensuremath{\mathbf{MA}}\xspace}
+
+%Events
+\newcommand{\eventStyle}[1]{#1}
+\newcommand{\auto}[1]{\textbf{#1}}
+\newcommand{\autoP}[1]{\ensuremath{\mathbf{#1}}}
+
+
+\newcommand{\CoerceIntoUnlockDoor}[3]{\eventStyle{CoerceIntoUnlockDoor}({#1}, {#2}, {#3})\xspace}
+
+\newcommand{\Incapacitate}[2]{\eventStyle{Incapacitate}(#1, #2)\xspace}
+\newcommand{\IncapacitateStealthly}[2]{\eventStyle{IncapacitateStealthily}(#1, #2)\xspace}
+
+\newcommand{\OpenVault}[1]{\eventStyle{OpenVault}({#1})\xspace}
+\newcommand{\OpenDoor}[2]{\eventStyle{OpenDoor}({#1}, {#2})\xspace}
+\newcommand{\PressButton}[2]{\eventStyle{PressButton}({#1}, {#2})\xspace}
+
+\newcommand{\TakeWeaponFromIncapacitated}[2]{\eventStyle{TakeWeaponFromIncapacitated}({#1}, {#2})\xspace}
+
+\newcommand{\TakeFromIncapacitated}[3]{\eventStyle{TakeFromIncapacitated}({#1}, {#2}, {#3})\xspace}
+
+\newcommand{\EnterRoom}[2]{\eventStyle{EnterRoom}({#1}, {#2})\xspace}
+
+\newcommand{\PickUp}[2]{\eventStyle{PickUp}({#1}, {#2})\xspace}
+
+
+
+\newcommand{\PickUpBriefcase}[2]{\eventStyle{PickUpBriefcase}({#1}, {#2})\xspace}
+\newcommand{\PickUpWeapon}[2]{\eventStyle{PickUpWeapon}({#1}, {#2})\xspace}
+
+\newcommand{\PressTellerButton}[1]{\eventStyle{PressTellerButton}({#1})\xspace}
+\newcommand{\PressManagerButton}[1]{\eventStyle{PressManagerButton}({#1})\xspace}
+\newcommand{\DistractAndIncapacitate}[3]{\eventStyle{DistractAndIncapacitate}({#1}, {#2}, {#3})\xspace}
+\newcommand{\TakeKeyFromIncapacitated}[2]{\eventStyle{TakeKeyFromIncapacitated}({#1}, {#2})\xspace}
+
+\newcommand{\GiveWeapon}[2]{\eventStyle{GiveWeapon}({#1}, {#2})\xspace}
+\newcommand{\GiveKey}[2]{\eventStyle{GiveKey}({#1}, {#2})\xspace}
+
+\newcommand{\WarningShot}[2]{\eventStyle{WarningShot}({#1}, {#2})\xspace}
+\newcommand{\UnlockDoor}[2]{\eventStyle{UnlockDoor}({#1}, {#2})\xspace}
+\newcommand{\LockDoor}[2]{\eventStyle{LockDoor}({#1}, {#2})\xspace}
+\newcommand{\Flee}[1]{\eventStyle{Flee}({#1})\xspace}
+\newcommand{\BreakAlliance}[2]{\eventStyle{BreakAlliance}({#1}, {#2})\xspace}
+\newcommand{\Escape}[1]{\eventStyle{Escape}({#1})\xspace}
+\newcommand{\CoerceTellerAtCounterIntoPressingButton}[2]{\eventStyle{CoerceTellerAtCounterIntoPressingButton}({#1}, {#2})\xspace}
+
+\newcommand{\CoerceIntoPressingButton}[3]{\eventStyle{CoerceIntoPressButton}({#1}, {#2}, {#3})\xspace}
+
+\newcommand{\CoerceIntoPressingTellerButton}[2]{\eventStyle{CoerceIntoPressingTellerButton}({#1}, {#2})\xspace}
+
+\newcommand{\TakeMoney}[1]{\eventStyle{TakeMoney}({#1})\xspace}
+
+
+\newcommand{\Converse}[2]{\eventStyle{Converse}({#1}, {#2})\xspace}
+\newcommand{\Argue}[2]{\eventStyle{Argue}({#1}, {#2})\xspace}
+
+\newcommand{\CoerceIntoSurrender}[2]{\eventStyle{CoerceIntoSurrender}({#1}, {#2})\xspace}
+\newcommand{\CoerceIntoDropWeapon}[2]{\eventStyle{CoerceIntoDropWeapon}({#1}, {#2})\xspace}
+\newcommand{\CoerceIntoGiveKey}[2]{\eventStyle{CoerceIntoGiveKey}({#1}, {#2})\xspace}
+
+\newcommand{\CoerceIntoMove}[3]{\eventStyle{CoerceIntoMove}({#1}, {#2}, {#3})\xspace}
+
+
+
+%Results
+\newcommand{\robberA}{\ensuremath{r_{\textnormal{\tiny 1}}}\xspace}
+\newcommand{\robberB}{\ensuremath{r_{\textnormal{\tiny 2}}}\xspace}
+\newcommand{\robberC}{\ensuremath{r_{\textnormal{\tiny 3}}}\xspace}
+
+\newcommand{\guardA}{\ensuremath{g_{\textnormal{\tiny 1}}}\xspace}
+\newcommand{\guardB}{\ensuremath{g_{\textnormal{\tiny 2}}}\xspace}
+\newcommand{\guardC}{\ensuremath{g_{\textnormal{\tiny 3}}}\xspace}
+\newcommand{\guardD}{\ensuremath{g_{\textnormal{\tiny 4}}}\xspace}
+
+\newcommand{\tellerA}{\ensuremath{t_{\textnormal{\tiny 1}}}\xspace}
+\newcommand{\tellerB}{\ensuremath{t_{\textnormal{\tiny 2}}}\xspace}
+\newcommand{\manager}{\ensuremath{m}\xspace}
+
+\newcommand{\managerDoor}{\ensuremath{d_{\textnormal{\tiny m}}}\xspace}
+\newcommand{\tellerDoor}{\ensuremath{d_{\textnormal{\tiny t}}}\xspace}
+\newcommand{\vaultDoor}{\ensuremath{d_{\textnormal{\tiny v}}}\xspace}
+
+\newcommand{\managerButton}{\ensuremath{b_{\textnormal{\tiny m}}}\xspace}
+\newcommand{\tellerButton}{\ensuremath{b_{\textnormal{\tiny t}}}\xspace}
+
+\newcommand{\managerRoom}{\ensuremath{f_{\textnormal{\tiny m}}}\xspace}
+\newcommand{\tellerRoom}{\ensuremath{f_{\textnormal{\tiny t}}}\xspace}
+\newcommand{\lobbyRoom}{\ensuremath{f_{\textnormal{\tiny l}}}\xspace}
+
+\newcommand{\weapon}{\ensuremath{w}\xspace}
+
+\newcommand{\customerCrowd}{\ensuremath{cr}\xspace}
+\newcommand{\customer}{\ensuremath{c}\xspace}
+\newcommand{\customerA}{\ensuremath{c_{\textnormal{\tiny 1}}}\xspace}
+\newcommand{\customerB}{\ensuremath{c_{\textnormal{\tiny 2}}}\xspace}
+\newcommand{\customerC}{\ensuremath{c_{\textnormal{\tiny 3}}}\xspace}
+\newcommand{\customerD}{\ensuremath{c_{\textnormal{\tiny 4}}}\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%% USER STUDY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\narrative}[1]{\ensuremath{\mathrm{N_{\textnormal{\tiny #1}}}}\xspace}
+\newcommand{\category}[1]{\ensuremath{\mathrm{C_{\textnormal{\tiny #1}}}}\xspace}
+\newcommand{\authoringTool}[1]{\ensuremath{\mathrm{T_{\textnormal{\tiny #1}}}}\xspace}
+\newcommand{\authoringBlock}[1]{\ensuremath{\mathrm{B_{\textnormal{\tiny #1}}}}\xspace}
+
+\newcommand{\narrativeA}{\narrative{A}}
+\newcommand{\narrativeB}{\narrative{B}}
+
+\newcommand{\structuredCategory}{\category{S}}
+\newcommand{\unstructuredCategory}{\category{U}}
+
+\newcommand{\authoringToolA}{\authoringTool{A}}
+\newcommand{\authoringToolB}{\authoringTool{B}}
+\newcommand{\authoringToolC}{\authoringTool{C}}
+
+
+%\newcommand{\narrative}[2]{\ensuremath{\mathrm{N_{\textnormal{\tiny #1}}^{\textnormal{\tiny #2}}}}\xspace}
+
+%\newcommand{\structuredNarrative}{\narrative{S}{}}
+%\newcommand{\unstructuredNarrative}{\narrative{U}{}}
+
+%\newcommand{\structuredNarrativeA}{\narrative{S}{1}}
+%\newcommand{\structuredNarrativeB}{\narrative{S}{2}}
+%\newcommand{\unstructuredNarrativeA}{\narrative{U}{1}}
+%\newcommand{\unstructuredNarrativeB}{\narrative{U}{2}}
+
+
+\newcommand{\authoringTask}[1]{\ensuremath{\mathrm{XX_{#1}}}\xspace}
+
+\newcommand{\authoringTime}{\ensuremath{t}\xspace}
+\newcommand{\authoringEffort}{\ensuremath{e}\xspace}
+\newcommand{\narrativeRatio}{\ensuremath{r}\xspace}
+\newcommand{\storySimilarity}{\ensuremath{d}\xspace}
+\newcommand{\meanStorySimilarity}{\ensuremath{\storySimilarity_{\scriptscriptstyle \mu}}\xspace}
+\newcommand{\storySimilarityFunction}[2]{\ensuremath{\storySimilarity(#1,#2)}\xspace}
+\newcommand{\meanStorySimilarityFunction}[1]{\ensuremath{\storySimilarity(#1)}\xspace}
+
+
+\newcommand{\storyLength}{\ensuremath{l}\xspace}
+
+\newcommand{\transitiveClosure}[1]{\ensuremath{\mathbf{T}(#1)}\xspace}
+
