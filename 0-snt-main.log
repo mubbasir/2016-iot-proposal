@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  17 OCT 2016 23:35
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  12 OCT 2016 14:07
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,6 +212,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
+<<<<<<< Updated upstream
 (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -228,6 +233,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
+=======
+>>>>>>> Stashed changes
 \c@definition=\count109
 \c@property=\count110
 \c@corollary=\count111
@@ -249,13 +256,18 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@taskcount=\count116
 
+<<<<<<< Updated upstream
 (./commands.tex) (./0-snt-main.aux
+=======
+(./0-snt-main.aux
+>>>>>>> Stashed changes
 
 LaTeX Warning: Label `fig1' multiply defined.
 
 )
 \openout1 = `0-snt-main.aux'.
 
+<<<<<<< Updated upstream
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
 LaTeX Font Info:    ... okay on input line 149.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
@@ -269,6 +281,21 @@ LaTeX Font Info:    ... okay on input line 149.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
 LaTeX Font Info:    ... okay on input line 149.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 149.
+=======
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 138.
+>>>>>>> Stashed changes
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -364,6 +391,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+<<<<<<< Updated upstream
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
 (./1-snt-intro.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
@@ -388,6 +416,32 @@ Overfull \hbox (29.99036pt too wide) in paragraph at lines 13--14
 []\OT1/ptm/m/n/10 There is no for-mal method-ol-ogy of \OT1/ptm/m/it/10 where \
 OT1/ptm/m/n/10 the data as-sem-bling (as well as data ag-gre-ga-tion and de-ci-
 sion/recommendation
+=======
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+(./1-snt-intro.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+>>>>>>> Stashed changes
  []
 
 Missing character: There is no â in font ptmr7t!
@@ -398,15 +452,42 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
+<<<<<<< Updated upstream
 Missing character: There is no ™ in font ptmr7t!
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--35
+=======
+Missing character: There is no œ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no œ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+>>>>>>> Stashed changes
 
  []
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+<<<<<<< Updated upstream
 <./fig1.png, id=10, 854.7132pt x 944.328pt>
 File: ./fig1.png Graphic file (type png)
  <use ./fig1.png>
@@ -430,11 +511,45 @@ Package pdftex.def Info: ./fig2-3.jpg used on input line 49.
  [2 <./fig1.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+=======
+<./fig1.png, id=8, 854.7132pt x 944.328pt>
+File: ./fig1.png Graphic file (type png)
+ <use ./fig1.png>
+Package pdftex.def Info: ./fig1.png used on input line 16.
+(pdftex.def)             Requested size: 140.92793pt x 155.69212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+<./fig2.jpg, id=10, 963.6pt x 542.025pt>
+File: ./fig2.jpg Graphic file (type jpg)
+ <use ./fig2.jpg>
+Package pdftex.def Info: ./fig2.jpg used on input line 33.
+(pdftex.def)             Requested size: 140.92793pt x 79.26566pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+>>>>>>> Stashed changes
 ) (./2-snt-soa.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
+<<<<<<< Updated upstream
+=======
+[2 <./fig1.png> <./fig2.jpg>]
+>>>>>>> Stashed changes
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 
@@ -442,7 +557,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
  []
 
+<<<<<<< Updated upstream
 [3 <./fig2-3.jpg>]
+=======
+
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -452,7 +571,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
+<<<<<<< Updated upstream
 [4]) (./3-snt-proposed-research-overview.tex
+=======
+[3]) (./3-snt-proposed-research-overview.tex
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -503,7 +626,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
+<<<<<<< Updated upstream
 [5]
+=======
+[4]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -524,6 +651,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
  []
 
 )
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 25--164
 
  []
@@ -608,11 +736,32 @@ Package pdftex.def Info: evaluation-plan.png used on input line 6.
 (pdftex.def)             Requested size: 140.92793pt x 90.052pt.
  [11 <./evaluation-plan.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 25--153
+
+ []
+
+(./4-snt-research-tasks.tex
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+>>>>>>> Stashed changes
 
  []
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
+<<<<<<< Updated upstream
 Missing character: There is no ™ in font ptmr7t!
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
@@ -621,10 +770,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
+=======
+Missing character: There is no ¦ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--25
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
@@ -653,10 +808,19 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
  [13]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 16--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--25
+>>>>>>> Stashed changes
 
  []
 
 )
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 12--173
 
  []
@@ -752,11 +916,44 @@ Missing character: There is no “ in font ptmr7t!
 
 LaTeX Warning: There were undefined references.
 
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 27--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--156
+
+ []
+
+[5] (./5-snt-broader-impact.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--159
+
+ []
+
+(./6-snt-results-prior-projects.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--162
+
+ []
+
+(./7-snt-data-management-plan.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--165
+
+ []
+
+(./8-snt-project-management.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--168
+
+ []
+
+[6] (./0-snt-main.bbl [1]) [2] (./0-snt-main.aux)
+>>>>>>> Stashed changes
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  4681 strings out of 493014
  61717 string characters out of 6133351
  145216 words of memory out of 5000000
@@ -791,4 +988,23 @@ PDF statistics:
  181 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 3658 strings out of 493014
+ 49021 string characters out of 6133351
+ 124845 words of memory out of 5000000
+ 7110 multiletter control sequences out of 15000+600000
+ 15971 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,11n,43p,1870b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 0-snt-main.pdf (8 pages, 1632749 bytes).
+PDF statistics:
+ 48 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 

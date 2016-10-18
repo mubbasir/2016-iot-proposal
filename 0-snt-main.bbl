@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 \begin{thebibliography}{100}
 
 \bibitem{mu-mimoUXeffect}
@@ -7,6 +8,9 @@
 \bibitem{warpProject}
 {WARP} project.
 \newblock \url{http://warpproject.org}.
+=======
+\begin{thebibliography}{10}
+>>>>>>> Stashed changes
 
 \bibitem{AHS07}
 K.~Aberer, M.~Hauswirth, and A.~Salehi.
@@ -14,6 +18,7 @@ K.~Aberer, M.~Hauswirth, and A.~Salehi.
   sensor networks.
 \newblock In {\em International Conference on Mobile Data Management}, 2007.
 
+<<<<<<< Updated upstream
 \bibitem{AhmedEH15}
 Khaled Ahmed, Neamat El{-}Tazi, and Ahmad~Hany Hossny.
 \newblock Sentiment analysis over social networks: An overview.
@@ -29,11 +34,14 @@ Ala~I. Al{-}Fuqaha, Mohsen Guizani, Mehdi Mohammadi, Mohammed Aledhari, and
 \newblock {\em {IEEE} Communications Surveys and Tutorials}, 17(4):2347--2376,
   2015.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{AM08}
 E.~Al-Masri and Q.~H. Mahmoud.
 \newblock Investigating web services on the world wide web.
 \newblock In {\em 17th international conference on World Wide Web. ACM}, 2008.
 
+<<<<<<< Updated upstream
 \bibitem{alahi2014socially}
 Alexandre Alahi, Vignesh Ramanathan, and Li~Fei-Fei.
 \newblock Socially-aware large-scale crowd forecasting.
@@ -60,6 +68,11 @@ Luigi Atzori, Antonio Iera, and Giacomo Morabito.
 \newblock The internet of things: {A} survey.
 \newblock {\em Computer Networks}, 54(15):2787--2805, 2010.
 
+=======
+\bibitem{Zigbee12}
+ZigBee Alliance, 2012.
+
+>>>>>>> Stashed changes
 \bibitem{AvciTS16}
 Besim Avci, Goce Trajcevski, and Peter Scheuermann.
 \newblock Tracking uncertain shapes with probabilistic bounds in sensor
@@ -68,6 +81,7 @@ Besim Avci, Goce Trajcevski, and Peter Scheuermann.
   European Conference, {ADBIS} 2016, Prague, Czech Republic, August 28-31,
   2016, Proceedings}, pages 338--351, 2016.
 
+<<<<<<< Updated upstream
 \bibitem{behnam2016}
 Behnam Babagholami~Mohamadabadi, Sejong Yoon, and Vladimir Pavlovic.
 \newblock {D}ecenteralized ‎{A}pproximate ‎{B}ayesian‎ {I}nference for
@@ -122,17 +136,22 @@ Aniket Bera and Dinesh Manocha.
   Obstacles}.
 \newblock In {\em 22nd International Conference on Pattern Recognition}, 2014.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{BergamaschiCVB01}
 Sonia Bergamaschi, Silvana Castano, Maurizio Vincini, and Domenico Beneventano.
 \newblock Semantic integration of heterogeneous information sources.
 \newblock {\em Data Knowl. Eng.}, 36(3):215--249, 2001.
 
+<<<<<<< Updated upstream
 \bibitem{cancela2014}
 B.~Cancela, A.~Iglesias, M.~Ortega, and M.~Penedo.
 \newblock Unsupervised trajectory modeling using temporal information via
   minimal paths.
 \newblock In {\em In IEEE CVPR}, 2014.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{CastanoFMR04}
 Silvana Castano, Alfio Ferrara, Stefano Montanelli, and Gianpaolo Racca.
 \newblock A semantic approach for resource discovery in distributed systems.
@@ -148,6 +167,7 @@ Sudarshan~S. Chawathe, Venkat Krishnamurthy, Sridhar Ramachandran, and
   Very Large Data Bases, Toronto, Canada, August 31 - September 3 2004}, pages
   1189--1195, 2004.
 
+<<<<<<< Updated upstream
 \bibitem{web06par}
 D.~Choffnes, J.~Lange, S.~Rossof, and A.~Kuzmanovic.
 \newblock On the use of parallel connections in web browsers.
@@ -162,6 +182,8 @@ Andre Cohen and Vladimir Pavlovic.
 \newblock In {\em Pattern Recognition (ICPR), 2010 20th International
   Conference on}, pages 2989--2992, 2010.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{Cohen98}
 William~W. Cohen.
 \newblock Integration of heterogeneous databases without common domains using
@@ -177,6 +199,7 @@ Adrien Coulet, Yael Garten, Michel Dumontier, Russ~B. Altman, Mark~A. Musen,
   on the semantic web.
 \newblock {\em J. Biomedical Semantics}, 2({S-2}):S10, 2011.
 
+<<<<<<< Updated upstream
 \bibitem{helbing2005}
 A.~Johansson D.~Helbing, L.~Buzna and T.~Werner.
 \newblock Self-organized pedestrian crowd dynamics: Experiments, simulations,
@@ -205,6 +228,8 @@ D.~Dumitriu, E.~Knightly, A.~Kuzmanovic, I.~Stoica, and W.~Zwaenepoel.
 \newblock Denial of service resilience in peer-to-peer file sharing systems.
 \newblock In {\em {Proceedings of ACM SIGMETRICS '05}}, Banff, Canada, 2005.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{ELS07}
 M.~Eid, R.~Liscano, and A.~El Saddik.
 \newblock A universal ontology for sensor networks data.
@@ -218,6 +243,7 @@ M.~Eisenhauer, P.~Rosengren, and P.~Antolin.
 \newblock In {\em Sixth Annual IEEE Communications Society Conference on
   Sensor, Mesh and Ad Hoc Communications and Networks Workshops}, 2009.
 
+<<<<<<< Updated upstream
 \bibitem{ERA10}
 M.~Eisenhauer, P.~Rosengren, and P.~Antolin.
 \newblock Hydra: A development platform for integrating wireless devices and
@@ -254,17 +280,22 @@ Y.~Gao, L.~Deng, A.~Kuzmanovic, and Y.~Chen.
 \newblock In {\em Proceedings of IEEE ICNP '06}, Santa Barbara, CA, November
   2006.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{GTKSS10}
 D.~Guinard, V.~Trifa, S.~Karnouskos, P.~Spiess, and D.~Savio.
 \newblock Interacting with the soa-based internet of things: Discovery, query,
   selection, and ondemand provisioning of web services.
 \newblock {\em IEEE transactions on Services Computing}, 3(3), 2010.
 
+<<<<<<< Updated upstream
 \bibitem{Hai-Jew16}
 Shalin Hai-Jew.
 \newblock {\em Social Media Data Extraction and Content Analysis}.
 \newblock {IGI} Global, 2016.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{HalevyRO06}
 Alon~Y. Halevy, Anand Rajaraman, and Joann~J. Ordille.
 \newblock Data integration: The teenage years.
@@ -285,6 +316,7 @@ J.~Honkola, H.~Laine, R.~Brown, and O.~Tyrkko.
 \newblock Smart-m3 information sharing platform.
 \newblock In {\em IEEE Symposium on Computers and Communications (ISCC)}, 2010.
 
+<<<<<<< Updated upstream
 \bibitem{std11ac}
 {IEEE Std 802.11ac-2013}.
 \newblock Amendment 4: Enhancements for very high throughput for operation in
@@ -362,6 +394,8 @@ Minyoung Kim and Vladimir Pavlovic.
 \newblock Sequence classification via large margin hidden {Markov} models.
 \newblock {\em Data Min. Knowl. Discov.}, 23(2):322--344, 2011.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{KirstenR06}
 Toralf Kirsten and Erhard Rahm.
 \newblock Biofuice: Mapping-based data integration in bioinformatics.
@@ -369,6 +403,7 @@ Toralf Kirsten and Erhard Rahm.
   Workshop, {DILS} 2006, Hinxton, UK, July 20-22, 2006, Proceedings}, pages
   124--135, 2006.
 
+<<<<<<< Updated upstream
 \bibitem{mimo13sigcomm}
 S.~Kumar, D.~Cifuentes, S.~Gollakota, and D.~Katabi.
 \newblock {Bringing Cross-Layer MIMO to Today's Wireless LANs}.
@@ -436,6 +471,8 @@ A.~Kuzmanovic, E.~Knightly, and R.~Cottrell.
   high-{RTT} networks.
 \newblock In {\em {Proceedings of PFLDnet '04}}, Argonne, IL, February 2004.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{LiCLWPZB12}
 Xiaorong Li, Rodrigo~N. Calheiros, Sifei Lu, Long Wang, Henry~Novianus Palit,
   Qin Zheng, and Rajkumar Buyya.
@@ -445,21 +482,32 @@ Xiaorong Li, Rodrigo~N. Calheiros, Sifei Lu, Long Wang, Henry~Novianus Palit,
   Distributed Systems, {ICPADS} 2012, Singapore, December 17-19, 2012}, pages
   862--867, 2012.
 
+<<<<<<< Updated upstream
 \bibitem{p2p10infocom}
 Z.~Li, A.~Goyal, Y.~Chen, and A.~Kuzmanovic.
 \newblock Measurement and diagnosis of address-misconfigured p2p traffic.
 \newblock In {\em Proceedings of INFOCOM '10}, San Diego, CA, March 2010.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{LZ05}
 J.~Liu and F.~Zhao.
 \newblock Towards semantic services for sensor-rich information systems.
 \newblock In {\em 2nd International Conference on Broadband Networks}, 2005.
 
+<<<<<<< Updated upstream
 \bibitem{LuoAM14}
 Qi~Luo, Kartik~B. Ariyur, and Anoop~K. Mathur.
 \newblock Will the smart grid be stable: Approaches for supply-demand
   imbalances.
 \newblock {\em {IEEE} Trans. Smart Grid}, 5(3):1361--1368, 2014.
+=======
+\bibitem{ERA10}
+P.~Rosengren M.~Eisenhauer and P.~Antolin.
+\newblock Hydra: A development platform for integrating wireless devices and
+  sensors into ambient intelligence systems.
+\newblock In {\em The Internet of Things}, 2010.
+>>>>>>> Stashed changes
 
 \bibitem{SSR05}
 A.~Wolisz M.~Sgroi and J.~M.~Rabaey A.~Sangiovanni-Vincetelli.
@@ -467,6 +515,7 @@ A.~Wolisz M.~Sgroi and J.~M.~Rabaey A.~Sangiovanni-Vincetelli.
 \newblock In W.~Weber, J.~Rabaey, and E.~H. Aarts, editors, {\em Ambient
   Intelligence}. Springer, 2005.
 
+<<<<<<< Updated upstream
 \bibitem{adver10infocom}
 G.~Macia, Y.~Wang, R.~Rodriguez, and A.~Kuzmanovic.
 \newblock {ISP}-enabled behavioral ad targeting without deep packet inspection.
@@ -477,12 +526,15 @@ G.~Macia, Y.~Wang, R.~Rodriguez, and A.~Kuzmanovic.
 \newblock {ISP-Enabled Behavioral Ad Targeting without Deep Packet Inspection}.
 \newblock In {\em Proceedings of INFOCOM '10}, San Diego, CA, May 2010.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{MDMV09}
 D.~Massaguer, M.~Diallo, S.~Mehrotra, and N.~Venkatasubramanian.
 \newblock Middleware for pervasive spaces: Balancing privacy and utility.
 \newblock In {\em 10th International Middleware Conference Middleware:
   ACM/IFIP/USENIX}, 2009.
 
+<<<<<<< Updated upstream
 \bibitem{mazzon2013}
 Riccardo Mazzon and Andrea Cavallaro.
 \newblock {Multi-camera tracking using a Multi-Goal Social Force Model}.
@@ -493,12 +545,15 @@ Tommaso Melodia, Dario Pompili, Vehbi~C. Gungor, and Ian~F. Akyildiz.
 \newblock Communication and coordination in wireless sensor and actor networks.
 \newblock {\em {IEEE} Trans. Mob. Comput.}, 6(10):1116--1129, 2007.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{MRPM08}
 E.~Meshkova, J.~Riihijarvi, M.~Petrova, and P.~Mahonen.
 \newblock A survey on resource discovery mechanisms, peer-to-peer and service
   discovery frameworks.
 \newblock {\em Computer networks, Elsevier}, 52(11), 2008.
 
+<<<<<<< Updated upstream
 \bibitem{tcpoison07icnp}
 A.~Mondal and A.~Kuzmanovic.
 \newblock A poisoning-resilient {TCP} stack.
@@ -528,12 +583,15 @@ Meredith~Ringel Morris, Jaime Teevan, and Katrina Panovich.
 \newblock In {\em Proceedings of the Fourth International Conference on Weblogs
   and Social Media, {ICWSM} 2010, Washington, DC, USA, May 23-26, 2010}, 2010.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{MostafaviM10}
 Sara Mostafavi and Quaid Morris.
 \newblock Fast integration of heterogeneous data sources for predicting gene
   function with limited annotation.
 \newblock {\em Bioinformatics}, 26(14):1759--1765, 2010.
 
+<<<<<<< Updated upstream
 \bibitem{nicolaou12eccv}
 Mihalis~A. Nicolaou, Vladimir Pavlovic, and Maja Pantic.
 \newblock Dynamic probabilistic {CCA} for analysis of affective behaviour.
@@ -555,12 +613,15 @@ Michele Nitti, Virginia Pilloni, Giuseppe Colistra, and Luigi Atzori.
 \newblock {\em {IEEE} Communications Surveys and Tutorials}, 18(2):1228--1240,
   2016.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{PandeyB12}
 Suraj Pandey and Rajkumar Buyya.
 \newblock Scheduling workflow applications based on multi-source parallel data
   retrieval in distributed computing networks.
 \newblock {\em Comput. J.}, 55(11):1288--1308, 2012.
 
+<<<<<<< Updated upstream
 \bibitem{pellegrini2009you}
 Stefano Pellegrini, Andreas Ess, Konrad Schindler, and Luc Van~Gool.
 \newblock You'll never walk alone: Modeling social behavior for multi-target
@@ -568,6 +629,8 @@ Stefano Pellegrini, Andreas Ess, Konrad Schindler, and Luc Van~Gool.
 \newblock In {\em Computer Vision, 2009 IEEE 12th International Conference on},
   pages 261--268. IEEE, 2009.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{PoolaRB16}
 Deepak Poola, Kotagiri Ramamohanarao, and Rajkumar Buyya.
 \newblock Enhancing reliability of workflow execution using task replication
@@ -586,6 +649,7 @@ CoBIs project.
 \newblock Technical Report deliverable 104 v 2.0, [Online]. Available:
   http://www.cobis-online.de/files/Deliverable D104V2.pdf, 2007.
 
+<<<<<<< Updated upstream
 \bibitem{rudovic13iccv}
 O.~Rudovic, V.~Pavlovic, and M.~Pantic.
 \newblock Context-sensitive conditional ordinal random fields for facial action
@@ -623,11 +687,14 @@ Ognjen Rudovic, Vladimir Pavlovic, and Maja Pantic.
 \newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 37(5):944--958,
   2015.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{SalarianCN12}
 Hamidreza Salarian, Kwan{-}Wu Chin, and Fazel Naghdy.
 \newblock Coordination in wireless sensor-actuator networks: {A} survey.
 \newblock {\em J. Parallel Distrib. Comput.}, 72(7):856--867, 2012.
 
+<<<<<<< Updated upstream
 \bibitem{schulz2003people}
 Dirk Schulz, Wolfram Burgard, Dieter Fox, and Armin~B Cremers.
 \newblock People tracking with mobile robots using sample-based joint
@@ -720,6 +787,8 @@ A.-J. Su and A.~Kuzmanovic.
 \newblock Thinning {A}kamai.
 \newblock In {\em USENIX/ACM IMC}, Vouliagmeni, Greece, October 2008.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{ToosiCB14}
 Adel~Nadjaran Toosi, Rodrigo~N. Calheiros, and Rajkumar Buyya.
 \newblock Interconnected cloud computing environments: Challenges, taxonomy,
@@ -731,6 +800,7 @@ Riccardo Torlone.
 \newblock Two approaches to the integration of heterogeneous data warehouses.
 \newblock {\em Distributed and Parallel Databases}, 23(1):69--97, 2008.
 
+<<<<<<< Updated upstream
 \bibitem{move12www}
 I.~Trestian, K.~Huguenin, L.~Su, and A.~Kuzmanovic.
 \newblock {Understanding Human Movement Semantics: A Point of Interest Based
@@ -793,12 +863,15 @@ Y.~Wang, K.~Pal, and A.~Kuzmanovic.
 \newblock In {\em Proceedings of IEEE/WIC/ACM International Conference on Web
   Intelligence}, Lion, France, August 2011.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{Zwave12}
 Z~wave Alliance, 2012.
 
 \bibitem{Wifi}
 Wi-Fi.
 
+<<<<<<< Updated upstream
 \bibitem{geoecho14wi}
 N.~Xia, S.~Miskovic, M.~Baldi, A.~Kuzmanovic, and A.~Nucci.
 \newblock {GeoEcho: Inferring User Interests from Geotag Reports in Network
@@ -877,6 +950,8 @@ B.~Zhan, D.N. Monekosso, P.~Remagnino, S.A. Velastin, and L.-Q. Xu.
 \newblock {Crowd analysis: a survey}.
 \newblock {\em Machine Vision Applications}, 19:345–--357, 2008.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{ZH08}
 W.~Zhang and K.~Hansen.
 \newblock Semantic web based self-management for a pervasive service
@@ -891,6 +966,7 @@ W.~Zhang and K.~Hansen.
 \newblock In {\em 14th IEEE International Conference on Engineering of Complex
   Computer Systems}, 2009.
 
+<<<<<<< Updated upstream
 \bibitem{zhou2011}
 B.~Zhou, X.~Wang, and X.~Tang.
 \newblock Random field topic model for semantic region analysis in crowded
@@ -903,6 +979,8 @@ B.~Zhou, X.~Wang, and X.~Tang.
   dynamic pedestrian-agents.
 \newblock In {\em IEEE CVPR}, 2012.
 
+=======
+>>>>>>> Stashed changes
 \bibitem{ZMN05}
 F.~Zhu, M.~Mutka, and L.~Ni.
 \newblock Service discovery in pervasive computing environments.
