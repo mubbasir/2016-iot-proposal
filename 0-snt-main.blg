@@ -4,7 +4,6 @@ The top-level auxiliary file: 0-snt-main.aux
 The style file: plain.bst
 Database file #1: goce.bib
 Database file #2: farid.bib
-<<<<<<< Updated upstream
 Database file #3: kapadia.bib
 Database file #4: vladimir.bib
 Database file #5: neo.bib
@@ -757,51 +756,3 @@ while$ -- 437
 width$ -- 152
 write$ -- 1605
 (There were 169 error messages)
-=======
-Name 1 in "M. Eisenhauer, P. Rosengren, and P. Antolin" has a comma at the end for entry ERA10
-while executing---line 1049 of file plain.bst
-Name 1 in "M. Eisenhauer, P. Rosengren, and P. Antolin" has a comma at the end for entry ERA10
-while executing---line 1090 of file plain.bst
-You've used 35 entries,
-            2118 wiz_defined-function locations,
-            750 strings with 11520 characters,
-and the built_in function-call counts, 12048 in all, are:
-= -- 1113
-> -- 625
-< -- 9
-+ -- 251
-- -- 209
-* -- 795
-:= -- 1963
-add.period$ -- 100
-call.type$ -- 35
-change.case$ -- 205
-chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 493
-empty$ -- 990
-format.name$ -- 209
-if$ -- 2549
-int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 31
-newline$ -- 172
-num.names$ -- 72
-pop$ -- 268
-preamble$ -- 1
-purify$ -- 173
-quote$ -- 0
-skip$ -- 359
-stack$ -- 0
-substring$ -- 581
-swap$ -- 121
-text.length$ -- 9
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 140
-warning$ -- 0
-while$ -- 107
-width$ -- 37
-write$ -- 361
-(There were 2 error messages)
->>>>>>> Stashed changes
