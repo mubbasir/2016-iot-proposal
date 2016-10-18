@@ -1,24 +1,89 @@
+Advances in global positioning technologies
+(GPS)~\cite{MannuciA04} enabled a fusion of spatial~\cite{pelekis-r2,HjaltSamet99,SpatialShashi03}
+and temporal~\cite{TemporalBook} databases, extending them
+to the field of spatio-temporal and mobile data
+management~\cite{MobiEyes2,IndexJensen06,OurGeoInf07,MokbelA08}. The main relevance for the 
+proposed project is that the popular query categories 
+are \textit{continuous} (i.e., their answers may have to be
+re-evaluated based on the changes in the motion of the entities);
+and/or \textit{persistent} (i.e., their answers may need to be
+re-evaluated based both on the changes of the motion as well as
+the history of such
+changes)~\cite{OurGeoInf07}. From a complementary perspective, research works in energy-efficient 
+tracking~\cite{AvciTS16,LiuS11,RenLC11} and query processing~\cite{MaddenTinyDB06} in Wireless Sensor Networks (WSN)
+brought about the concepts of distributed/localized processing (i.e., minimizing the communication) along with the selection of
+notes in-charge of a particular data-gathering and processing -- e.g., {\it tracking principals}~\cite{GhicaTZ10}, {\it cluster-heads}~\cite{Kulik99,Tavli06}, etc.
+
+In the settings focal to the proposed project and management of evolving HACADAs, both bodies of existing works -- for which the co-PIs have research contributions and experience~\cite{AvciTS16,OurGeoInf07,GhicaTZ10,MyTODS04,ZhouT+12} -- can be used as leverage, however, there are quite a few additional unique challenges that we need to address.
+
+\paragraph{Operands, Operations and Placements}
+
+We assume that, at minimum, each WiT object will have the attributes described in Table~\ref{tab:table1}:
+
+\begin{table}[h!]
+  \centering
+  \caption{WiT structure}
+  \label{tab:table1}
+  \begin{tabular}{l|l|l|l}
+    IP\_Id & [(Value$_i$, Description$_i$)] & Location & Other Description\\
+    \hline
+    Unique IP & Types of values (sensed, transmitted, descriptive) & geo-location & Semantics; Operational Mode; etc.\\
+  \end{tabular}
+\end{table}
+
+At a first approximation, a particular HACADA can be (logically) considered as a triplet $H_i =${\it ([WiT]$_i$, R(WiT$_i$,Wit$_j$), [$C_g$])}, where {\it [WiT]$_i$} denotes the list of its WiT constituents/objects; {\it R(WiT$_{ij}$,Wit$_{ik}$)} encodes a (possible) relationship  between the $j$-th and $k$-th WiT; and {\it [$C_g$]} denotes a (possible) list of {\it global constraints} such as {\it C1} introduced in Sec.~\ref{dat-cp} or other kinds, limiting the number of possible transitions among states.
+
+One of the primary tasks of the proposed work will be to {\it define a set of operations} over the universe of HACADAs, along with efficient algorithms for their processing. But few examples:
+
+\noindent $\bullet$ {\it merge($H_i$,$H_j$)} -- this operand will merge the representations $H_i$ and $H_j$ into a single HACADA $H_j$. The need to execute this operation may be due to optimization of various analytics tasks (e.g., detecting association rules).
+
+\noindent $\bullet$ {\it split(H,$H_i$,$H_j$,A)} -- this operand will split an existing instance of a HACADA ($H$) into two new instances, based on a criterion pertaining to attribute $A$.
+
+Even the two simple examples above have a lot of inherent complexities. Firstly, one may observe that different overloadings are possible: for instance, {\it merge($H_i$,$H_j$)} can also have a signature {\it merge($H_i$,$H_j$, $H_k$)}, indicating that a brand new HACADA instance is to be created -- and some of the traditional techniques and approaches (cf.~\cite{GoguenM92,JouannaudKKM92}) may need to be revisited for incorporating them in the IoT context~\cite{Adaikkalavan05,snoop11}. Secondly, context-based policies will need to be considered which, in turn, may affect the implementation: for example, should any of the input-operands continue to exist as an independent instance. Thirdly, as much as one can attempt to rely on existing techniques for integrating heterogeneous data~\cite{BergamaschiCVB01,Cohen98,CouletGDAMS11,HalevyRO06,SalarianCN12} -- how can different networking and/or security requirements be brought ``in concert'' with the specification of the declarative and/or procedural semantics of the operators?
+
+An important question in its own right for this part of the proposed research is how can one selectively {\it place the operands and operations' execution} for the purpose of efficient execution of particular operations {\it and} how are the outputs of the operations to be placed, having in mind not only representation-related issues, but also the possibility of analytics and/or security based requirements. There are plethora of works from distributed query processing through processing aggregates in sensor networks, to resources re-allocation~\cite{DewanSHH94,GuoPZA14,JinC06,LiuOBC12,Nisheeth04,Synopsis} to leverage upon -- however, one cannot expect that a straightforward adaptation and/or extension of the existing techniques can yield good performance, especially in dynamic scenarios of multiple WiTs from completely heterogeneous sources entering and exiting the working-context. We will attempt to couple the existing works with our recent results on on-demand resource guidance in mobile sensor networks and detection of motion trends~\cite{AvciTTSZ16,MohamedKT15} in order to ensure that the processing of the operands of interests, as well as evaluation of queries/predicates of interest is done in an optimized and balanced manner~\cite{omCom16-1}.
 
 
-\paragraph{Knowledge Representation and Reasoning} 
-
-The processed data from above will be represented as a set of discrete time series, or \emph{fluents} which encode the states and properties of different \avatar which change over time. \todo{give example}. To facilitate efficient reasoning and knowledge discovery in a dynamic smart and inter-connected system of avatars, we will consider a level of abstraction, termed as \emph{events }. Events constitute meaningful interactions between two or more \avatar and serve as the basis for identifying relationships between them towards creating social networks of avatars. \todo{give example}. We define the specific terms and concepts we will use for event-centric knowledge representation and reasoning below. 
-
-\noindent \textbf{Smart Avatars} The notion of smart objects~\cite{Kallmann:1999:DIS:323663.323683} has been popularly used in the graphics and animation community to embed intelligence and semantics in virtual objects. We extend this formalism to represent both IoT objects as well as IoT users. This unified formalism allows us to seamless consider sensors, controllers, actuators, and human users within the same social community.  We define a smart avatar $\smartobj{} \in \world$ as $\smartobj{} = \langle \affordances, \state{} \rangle$ with a set of advertised affordances $\affordances$ and a state \state{}. An affordance $\affordance(\affordanceowner, \affordanceuser) \in \affordances$ is an advertised capability offered by a smart avatar that manipulates the states of the owner of an affordance $\affordanceowner$ and a smart avatar user $\affordanceuser$. 
-
-\noindent \textbf{State.} The state $\state{} = \langle \attributeSymbol, \relationshipSymbol \rangle$ of a smart object $\smartobj{}$ comprises a set of attribute mappings \attributeSymbol (fluents), and a collection of pairwise relationships $\relationshipSymbol$ with other avatars. With this representation, we can make logical inferences between objects using a declarative PROLOG-like knowledge reasoning engine. 
-%An attribute \attributemapping{i}{j} is a bit that denotes the value of the $j^{th}$ attribute for $\smartobj{i}$. 
 
 
+\paragraph{Uncertainty and Data Compression in Evolving Contexts}
 
-%A specific relationship $\relationship{\cdot}{\cdot}{a}$ is a sparse matrix of $|\world| \times |\world|$, where \relationship{i}{j}{a} is a bit that denotes the current value of the $a^{th}$ relationship between \smartobj{i} and \smartobj{j}. 
+%%of
+%%spatio-temporal queries: \textit{range, (k) Nearest-Neighbor
+%%((k-)NN)}~\cite{MyTODS04,XiongMA05,YuPK05} are typically: (1)
+%%\textit{continuous} (i.e., their answers may have to be
+%%re-evaluated based on the changes in the motion of the entities);
+%%and/or (2) \textit{persistent} (i.e., their answers may need to be
+%%re-evaluated based both on the changes of the motion as well as
+%%the history of such
+%%changes)~\cite{MobiEyes2,MokbelA08,OurGeoInf07}. 
+
+One of the challenges to be addressed in the proposed project is how to properly incorporate the uncertainty in all the aspects of the query/operations processing. Its sources can be plentiful -- from errors in the values sensed, to errors due to attempting to represent a continuous phenomenon with a discrete samples and use of interpolation in-between~\cite{DevendranL14,GoodchildZK09,HunterG96}. A specific source of uncertainty is the quest for a compactness in the representation -- i.e., data compression, which is sometimes essential (like in the settings of streaming data)~\cite{CormodeMYZ12,CormodeGHJ12}. 
+However, unless it is properly captured in the very syntax of the predicates and operators, as well as in the processing algorithms -- its impact can be unpredictable~\cite{MyTODS04}. Throughout the proposed work, we will capitalize on the works coupling aggregation and compression in WSNs~\cite{LinGKL05,KadayifK04,PattemKG08} and our recent results on fusing uncertain data from heterogeneous sources~\cite{ZhangTL16} to formalize the representation of the uncertainty when managing the instances of HACADAs and the execution of the novel operands.
+
+An important component of our research will be how to pro-actively steer the collaborative orchestration of the processes of data generation, compression, (re)placement -- along with queries processing and actuation. We will leverage on our works on proactive management of resources in WSNs~\cite{McClurgTY12} and attempt to apply the concept of evolving triggers~\cite{old-r35} to balance the impact of the (bounded) uncertainty on the quality of the service/experience. This part of the research will be coupled with the challenges addressed in the context of detecting the placement of the predicates whenever multiple levels of granularity may need to be maintained about a data of evolving nature and with semantic annotations~\cite{VaismanZ09,TrajcevskiDVAZT15}.
 
 
-%\noindent \textbf{Rules.}  A rule $\Rule_x(i,j) \in \Rules$ between two smart objects \smartobj{i}, \smartobj{j} is true or false, depending on the states and relationships of both objects. Rules allow for logical inference between objects and are used for reasoning such as evaluating whether a character can access a particular room, or manipulate another smart object based on the current world state. They are defined and solved using a declarative PROLOG-like interface 
 
-\noindent \textbf{Events.} Events are used to encode context-specific interactions between two or more smart avatars, and provide an appropriate level of abstraction for knowledge discovery  An event is formally defined as $\event{} = \langle \tree,  \precondition{}, \postcondition{} \rangle$. A precondition $\precondition{}: \groupState{\smartObjectGroup{}} \leftarrow \{\true, \false \} $ is a logical expression on the compound state \groupState{\smartObjectGroup{}} of a particular set of smart avatars $\smartObjectGroup{}: \{ \smartobj{1}, \smartobj{2}, \ldots \smartobj{|\roleSet{}|} \}$ that checks the validity of the states of each smart object. \precondition{} is represented as a conjunction of clauses $\clause{}{} \in \precondition{}$ where each clause \clause{}{} is a literal that specifies the desired attributes of smart objects, and relationships between pairs of participants. A precondition is fulfilled by $\smartObjectGroup{} \subseteq \world $ if $\preconditionFunction{\event}{\smartObjectGroup{}} = \true$. The event postcondition $\postcondition{} : \groupState{} \rightarrow \nextGroupState{}$ transforms the current state of all event participants \groupState{} to \nextGroupState{} by executing the effects of the event. We can extend this definition to model non-deterministic, fuzzy events with a probabilistic notion of success or failure. Events may optionally have a controller which defines the series of affordance activations within the smart avatars to produce its desired outcome. We represent this control logic using an extended version of Behavior Trees that facilitate parameterization. Parameterized Behavior Tree (PBT)~\cite{Shoulson:2011:PBT:2177817.2177835} are an effective model for representing coordinated control logic  between multiple smart avatars. 
+\paragraph{Knowledge Representation and Reasoning}
 
-PI Kapadia has extensive prior experience in developing event-centric knowledge bases for inference and reasoning in virtual worlds~\cite{Shoulson:2013:EPA:2522628.2522629,2015-fdg-bstl,Kapadia:2015:CAI:2699276.2699279,Kapadia:2016:CCN:2982818.2982846} which will be extended to represent the IoT domain. 
+The processed data from above will be represented as a set of discrete time series, or \emph{fluents} which encode the states and properties of different \avatar which change over time. \todo{give example}. To facilitate efficient reasoning and knowledge discovery in a dynamic smart and inter-connected system of avatars, we will consider a level of abstraction, termed as \emph{events }. Events constitute meaningful interactions between two or more \avatar and serve as the basis for identifying relationships between them towards creating social networks of avatars. \todo{give example}. We define the specific terms and concepts we will use for event-centric knowledge representation and reasoning below.
+
+\noindent \textbf{Smart Avatars} The notion of smart objects~\cite{Kallmann:1999:DIS:323663.323683} has been popularly used in the graphics and animation community to embed intelligence and semantics in virtual objects. We extend this formalism to represent both IoT objects as well as IoT users. This unified formalism allows us to seamless consider sensors, controllers, actuators, and human users within the same social community.  We define a smart avatar $\smartobj{} \in \world$ as $\smartobj{} = \langle \affordances, \state{} \rangle$ with a set of advertised affordances $\affordances$ and a state \state{}. An affordance $\affordance(\affordanceowner, \affordanceuser) \in \affordances$ is an advertised capability offered by a smart avatar that manipulates the states of the owner of an affordance $\affordanceowner$ and a smart avatar user $\affordanceuser$.
+
+\noindent \textbf{State.} The state $\state{} = \langle \attributeSymbol, \relationshipSymbol \rangle$ of a smart object $\smartobj{}$ comprises a set of attribute mappings \attributeSymbol (fluents), and a collection of pairwise relationships $\relationshipSymbol$ with other avatars. With this representation, we can make logical inferences between objects using a declarative PROLOG-like knowledge reasoning engine.
+%An attribute \attributemapping{i}{j} is a bit that denotes the value of the $j^{th}$ attribute for $\smartobj{i}$.
+
+
+
+%A specific relationship $\relationship{\cdot}{\cdot}{a}$ is a sparse matrix of $|\world| \times |\world|$, where \relationship{i}{j}{a} is a bit that denotes the current value of the $a^{th}$ relationship between \smartobj{i} and \smartobj{j}.
+
+
+%\noindent \textbf{Rules.}  A rule $\Rule_x(i,j) \in \Rules$ between two smart objects \smartobj{i}, \smartobj{j} is true or false, depending on the states and relationships of both objects. Rules allow for logical inference between objects and are used for reasoning such as evaluating whether a character can access a particular room, or manipulate another smart object based on the current world state. They are defined and solved using a declarative PROLOG-like interface
+
+\noindent \textbf{Events.} Events are used to encode context-specific interactions between two or more smart avatars, and provide an appropriate level of abstraction for knowledge discovery  An event is formally defined as $\event{} = \langle \tree,  \precondition{}, \postcondition{} \rangle$. A precondition $\precondition{}: \groupState{\smartObjectGroup{}} \leftarrow \{\true, \false \} $ is a logical expression on the compound state \groupState{\smartObjectGroup{}} of a particular set of smart avatars $\smartObjectGroup{}: \{ \smartobj{1}, \smartobj{2}, \ldots \smartobj{|\roleSet{}|} \}$ that checks the validity of the states of each smart object. \precondition{} is represented as a conjunction of clauses $\clause{}{} \in \precondition{}$ where each clause \clause{}{} is a literal that specifies the desired attributes of smart objects, and relationships between pairs of participants. A precondition is fulfilled by $\smartObjectGroup{} \subseteq \world $ if $\preconditionFunction{\event}{\smartObjectGroup{}} = \true$. The event postcondition $\postcondition{} : \groupState{} \rightarrow \nextGroupState{}$ transforms the current state of all event participants \groupState{} to \nextGroupState{} by executing the effects of the event. We can extend this definition to model non-deterministic, fuzzy events with a probabilistic notion of success or failure. Events may optionally have a controller which defines the series of affordance activations within the smart avatars to produce its desired outcome. We represent this control logic using an extended version of Behavior Trees that facilitate parameterization. Parameterized Behavior Tree (PBT)~\cite{Shoulson:2011:PBT:2177817.2177835} are an effective model for representing coordinated control logic  between multiple smart avatars.
+
+PI Kapadia has extensive prior experience in developing event-centric knowledge bases for inference and reasoning in virtual worlds~\cite{Shoulson:2013:EPA:2522628.2522629,2015-fdg-bstl,Kapadia:2015:CAI:2699276.2699279,Kapadia:2016:CCN:2982818.2982846} which will be extended to represent the IoT domain.
 
 
 %ADAPT~\cite{Shoulson:2013:EPA:2522628.2522629}
@@ -31,13 +96,13 @@ PI Kapadia has extensive prior experience in developing event-centric knowledge 
 
 
 
-%$\roleSet{} = \{ \role{i} \}$  define the desired roles for each participant. \role{i} is a logical formula specifying the desired value of the immutable attributes \attributemapping{\cdot}{j} for \smartobj{j} to be considered as a valid candidate for that particular role in the event.  
+%$\roleSet{} = \{ \role{i} \}$  define the desired roles for each participant. \role{i} is a logical formula specifying the desired value of the immutable attributes \attributemapping{\cdot}{j} for \smartobj{j} to be considered as a valid candidate for that particular role in the event.
 
 
-%An event instance $\instance = \langle \event, \smartObjectGroup{} \rangle$ is an event \event populated with an ordered list of smart object participants \smartObjectGroup{}.  $\preconditionFunction{\event}{\smartObjectGroup{}} = \true$. The event postcondition $\postcondition{} : \groupState{} \rightarrow \nextGroupState{}$ transforms the current state of all event participants \groupState{} to \nextGroupState{} by executing the effects of the event. When an event fails, $\nextGroupState{} = \groupState{}$. An event instance $\instance = \langle \event, \smartObjectGroup{} \rangle$ is an event \event populated with an ordered list of smart object participants \smartObjectGroup{}. 
+%An event instance $\instance = \langle \event, \smartObjectGroup{} \rangle$ is an event \event populated with an ordered list of smart object participants \smartObjectGroup{}.  $\preconditionFunction{\event}{\smartObjectGroup{}} = \true$. The event postcondition $\postcondition{} : \groupState{} \rightarrow \nextGroupState{}$ transforms the current state of all event participants \groupState{} to \nextGroupState{} by executing the effects of the event. When an event fails, $\nextGroupState{} = \groupState{}$. An event instance $\instance = \langle \event, \smartObjectGroup{} \rangle$ is an event \event populated with an ordered list of smart object participants \smartObjectGroup{}.
 
-%? which represent the specific values of avatar fluents at specific points. Events occur on a set of avatars which are the participants, and produce a change in state of these avatars which are defined as event postconditions. Events may additionally be pre-conditioned on the participant states to indicate what conditions must be satisfied in order for an event to successfully execute. 
+%? which represent the specific values of avatar fluents at specific points. Events occur on a set of avatars which are the participants, and produce a change in state of these avatars which are defined as event postconditions. Events may additionally be pre-conditioned on the participant states to indicate what conditions must be satisfied in order for an event to successfully execute.
 
-This symbolic representation of avatars and theiry dynamic states in terms of key events will facilitate the development of an event calculus ? allowing us make inferences about the relationships and properties of these avatars using first and second-order logic. This reasoning will be used as the basis for knowledge discovery described in Section XX. Knowledge discovery will entail the identification of relationships between the properties of different avatars, clustering of avatar to create compound entities, and the discovery of salient events. 
+This symbolic representation of avatars and their dynamic states in terms of key events will facilitate the development of an event calculus ? allowing us make inferences about the relationships and properties of these avatars using first and second-order logic. This reasoning will be used as the basis for knowledge discovery described in Section XX. Knowledge discovery will entail the identification of relationships between the properties of different avatars, clustering of avatar to create compound entities, and the discovery of salient events.
 
 

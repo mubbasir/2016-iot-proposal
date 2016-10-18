@@ -1,14 +1,19 @@
-We now proceed with a detailed presentation of the main research of the proposed project. 
+We now present a detailed discussion of the main research topics and approaches to be undertaken by the proposed project.
 
 
-\subsection{Data collection and processing} 
-(Goce + Mubbasir)\\
-Data cleaning, data collection, sharing, processing, analytics\\
-How can we secure the collected data and how to make it available?\\
-APIs and libraries for building applications 
+\subsection{Data collection and processing}\label{data-cp}
+%%(Goce + Mubbasir)\\
+%%Data cleaning, data collection, sharing, processing, analytics\\
+%%How can we secure the collected data and how to make it available?\\
+%%APIs and libraries for building applications
 
+<<<<<<< HEAD
+To motivate this part of the project, consider the following rule: {\it R1: Whenever more than 60\% of the WiT in an ensemble represented as a single HACADA have attributes from a particular class, generate a separate instance to store their data/description}, along with the following constraint: {\it C1: No more than 100 objects should be stored in a MIB, and the total geo-coverage of their location should not span more than 1 mile radius}. Essentially, $R1$ states that if we have a mix of 60 (descriptions of) home-appliances, when 49 of them happen to be refrigerators, they should have their own HACADA instance. However, if there were already 100 HACADAs stored at a particular MIB then, because of $C1$ we may need to re-assign the physical storage of the corresponding representations. The co-existence of $R1$ and $C1$ has to be {\it entangled}~\cite{GuptaKRBGK11} with the dynamics of various operational entities -- from static (e.g., in-home) devices but of different, heterogeneous types, to entities described with various contexts such as user's location, motion-type and type of a mobile device.
+=======
+<<<<<<< Updated upstream
+>>>>>>> origin/master
 
-\input{4-1-data-processing} 
+\input{4-1-data-processing}
 
 \input{4-2-knowledge}
 
@@ -16,7 +21,7 @@ APIs and libraries for building applications
 
 
 
-Security poses a great challenge for IoT. In addition to security threats common for networked systems in general, IoT systems are further confronted by the fact that they necessarily rely on wireless signals for communication. We propose to address challenges stemming from the \emph{physical layer} attacks on IoT systems. In particular, while Multi-User Multiple Input Multiple Output (MU-MIMO) systems are considered the ultimate next step in the wireless bandwidth race (because they leverage spatial multiplexing to send independent data streams to multiple terminals simultaneously, effectively improving spatial reuse), they could be utilized as an effective and sophisticated \emph{denial-of-service} tool. Indeed, by creating controlled signals in an area, it can selectively disrupt performance of Wi-Fi networks and sensors in an area, while still making it hard to detect or classify such behavior (precisely due to uneven signal properties at different locations). Such an attack is relevant in many scenarios. Consider a location densely populated with wireless APs. Can one of the APs turn itself into a “rogue” mode to disrupt the other APs, i.e., “clear the air”, and thus improve performance for itself, while staying largely “invisible” to the other APs? Another example is Wi-Fi backscatter, \emph{i.e.}, scenarios where a device backscatters Wi-Fi signals to communicate. In presence of the attack, such communication might be severely degraded, while at the same time it becomes hard to know that the attack is taking place. Given that Wi-Fi backscatter was recently proposed as a solution to communication with implanted medical devices, this scenario significantly raises the bar for addressing this emerging problem. Below, we first outline our current results in this domain, and the outline a research agenda. 
+Security poses a great challenge for IoT. In addition to security threats common for networked systems in general, IoT systems are further confronted by the fact that they necessarily rely on wireless signals for communication. We propose to address challenges stemming from the \emph{physical layer} attacks on IoT systems. In particular, while Multi-User Multiple Input Multiple Output (MU-MIMO) systems are considered the ultimate next step in the wireless bandwidth race (because they leverage spatial multiplexing to send independent data streams to multiple terminals simultaneously, effectively improving spatial reuse), they could be utilized as an effective and sophisticated \emph{denial-of-service} tool. Indeed, by creating controlled signals in an area, it can selectively disrupt performance of Wi-Fi networks and sensors in an area, while still making it hard to detect or classify such behavior (precisely due to uneven signal properties at different locations). Such an attack is relevant in many scenarios. Consider a location densely populated with wireless APs. Can one of the APs turn itself into a “rogue” mode to disrupt the other APs, i.e., “clear the air”, and thus improve performance for itself, while staying largely “invisible” to the other APs? Another example is Wi-Fi backscatter, \emph{i.e.}, scenarios where a device backscatters Wi-Fi signals to communicate. In presence of the attack, such communication might be severely degraded, while at the same time it becomes hard to know that the attack is taking place. Given that Wi-Fi backscatter was recently proposed as a solution to communication with implanted medical devices, this scenario significantly raises the bar for addressing this emerging problem. Below, we first outline our current results in this domain, and the outline a research agenda.
 
 
 {\bf Background and Current Work}
@@ -32,8 +37,8 @@ We demonstrate the following important features of the Matrix-bending attack:
 ($i$) Matrix-bending is \emph{a low-profile} attack. A Neo does not apply any jamming, and transmits data using only a single antenna. Moreover, it generates CSI that is statistically indistinguishable from the CSI generated by regular clients, and is capable of achieving its full impact while generating traffic at volumes that are more than an order of magnitude smaller than those generated by a regular client.
 ($ii$) A single Neo has the capacity to considerably decrease MU-MIMO's throughput gains, \emph{i.e}, by up to one third, even in the presence of $100$ legitimate clients. To bring an MU-MIMO system performance to the level of a corresponding single-user system, the number of Neos in the system need not be large, and does not depend on the number of regular clients in the system. Instead, the required number of Neos corresponds to the number of clients in a beamforming group, which is theoretically upper bounded by the number of antennas at an AP, and in practice often bounded by a smaller number, \emph{e.g.}, $4$ in 802.11ac~\cite{std11ac}.
 
-We design and implement a real-time 802.11ac beamforming system on a software-defined radio 
-platform that allows us to evaluate Matrix-bending on over-the-air 5~GHz channels with complete access to CSI~\cite{warpProject}. We evaluate MU-MIMO client selection 
+We design and implement a real-time 802.11ac beamforming system on a software-defined radio
+platform that allows us to evaluate Matrix-bending on over-the-air 5~GHz channels with complete access to CSI~\cite{warpProject}. We evaluate MU-MIMO client selection
 algorithms and policies in the presence of Neos. We show that falsifying the CSI, \emph{i.e.}, the V-matrix, of a single Neo is sufficient to reduce a substantial portion of MU-MIMO's throughput gain, \emph{i.e.}, approximately by one third. Using $3$ Neos, the throughput degrades by approximately $3\times$, often experiencing performance below
 the corresponding SU-MIMO system. We find that Matrix-bending's effect is most dominant over APs that attempt to maximize throughput,  while it is expectedly less pronounced for the schemes that do not focus on throughput.
 
@@ -48,7 +53,7 @@ We propose to address challenges stemming from the \emph{physical layer} attacks
 \emph{Silent scrambler.} In this scenario, we consider Wi-Fi-enabled backscatter communication, where signals generated by a Wi-Fi source are backscattered by a client device. In this case, the attacker node (an 8-antenna 802.11ac AP) transmits a time-varying signal while quiet-bubbling the Wi-Fi source. The backscatter client-device responds to the scrambled signal it receives, thus disrupting the communication.
 \emph{Power-killer attack.} In this scenario, we again assume the above Wi-Fi-enabled backscatter communication. The goal of this attack would be to null the signal at the backscatter device, such that the energy harvested by the backscatter client is insufficient to enable transmissions. The key research question is to determine critical time-scales and its impact on the effectiveness of the attack.
 
-\emph{Countermeasures.} We propose to analyze countermeasures to the above attacks. The most promising approach for the silent DoS attack is to equip APs with an additional, passive antenna, that would collect the information from the environment. Then, we would further conduct statistical analysis to find critical time scales that enable the attack detection with appropriate confidence guarantees. For the silent-scrambler and power-killer attacks, we will pursue solutions that do not require additional hardware. In all cases, we will conduct experiments on a real-time 802.11ac beamforming system on a software-defined radio 
+\emph{Countermeasures.} We propose to analyze countermeasures to the above attacks. The most promising approach for the silent DoS attack is to equip APs with an additional, passive antenna, that would collect the information from the environment. Then, we would further conduct statistical analysis to find critical time scales that enable the attack detection with appropriate confidence guarantees. For the silent-scrambler and power-killer attacks, we will pursue solutions that do not require additional hardware. In all cases, we will conduct experiments on a real-time 802.11ac beamforming system on a software-defined radio
 platform on over-the-air 5~GHz channels~\cite{warpProject}.
 
 
@@ -60,9 +65,27 @@ System level security\\
 Privacy, anonymity\\
 \\
 Greedy behavior (?)\\
+Key sharing problem\\
+Privacy, trust and anonymity \\
+
+=======
+\subsection{Knowledge discovery: social network of avatars (virtual world)}
+(Ashfaq + Vladamir)\\
+….\\
+…\\
+
+\subsection{Security, privacy and anonymity}
+(Farid + Alex)\\
+…\\
+Data security\\
+System level security\\
+Privacy, anonymity\\
+\\
+Greedy behavior (?)\\
 Key sharing problem\\ 
 Privacy, trust and anonymity \\
 
+>>>>>>> Stashed changes
 \subsection{Implementation and validation }
 (All)\\
 \\
@@ -71,5 +94,12 @@ Campus wide implementation \\
 Letters of Commitment\\
 Shall we rely on KAA?\\
 APIs: flexibility of formats/schemas\\
+<<<<<<< Updated upstream
 
+<<<<<<< HEAD
+\input{4-4-evaluation}
+=======
 \input{4-4-evaluation} 
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/master
